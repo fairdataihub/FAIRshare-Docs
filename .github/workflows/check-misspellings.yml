@@ -1,0 +1,23 @@
+# Action to check for spelling errors
+name: misspell-fixer-action
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - uses: sobolevn/misspell-fixer-action@master
+      - uses: peter-evans/create-pull-request@main
+        with:
+          token: ${{ secrets.BOT_ACTIONS }}
+          commit-message: "Fixes by misspell-fixer"
+          title: "Typos fix by misspell-fixer"
