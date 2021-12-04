@@ -7,7 +7,7 @@ sidebar_position: 3
 To build the complete application, you will need to build the python executable and the Electron portion separately.
 
 :::caution
-You will not be able to do cross compatible builds for MacOS, Linux and Windows. The Python executable will be OS specific so you will need to build on each target OS separately. 
+You will not be able to do cross compatible builds for MacOS, Linux and Windows. The Python executable will be OS specific so you will need to build on each target OS separately.
 
 For macOS you will need an Apple Developer Certificate. You can get one of these [here](https://developer.apple.com/support/certificates/).
 :::

@@ -65,16 +65,16 @@ yarn install
 
 ### Python
 
-For python packages we prefer that you use [conda-forge](https://anaconda.org/conda-forge) if possible. This makes exporting your new environment file much easier. If a package that you require is not available here, you can also use pip to install your package. 
+For python packages we prefer that you use [conda-forge](https://anaconda.org/conda-forge) if possible. This makes exporting your new environment file much easier. If a package that you require is not available here, you can also use pip to install your package.
 
-```shell 
+```shell
 conda install -c conda-forge <package-name>
 pip install <package-name>
 ```
 
 ### NodeJS
 
-You can use the vast library provided via [npm](https://www.npmjs.com/) to add any funcionality via JavaScript. In this application we use Vue 3 so please verify that your package is supported by this framework if necessary. Please use Yarn as your package manager. 
+You can use the vast library provided via [npm](https://www.npmjs.com/) to add any funcionality via JavaScript. In this application we use Vue 3 so please verify that your package is supported by this framework if necessary. Please use Yarn as your package manager.
 
 ```shell
 yarn add <package-name>
@@ -84,5 +84,5 @@ yarn add <package-name>
 
 The minimum required programming language and compiler versions are provided below. Please be aware that this is subject to change.
 
-* Python: 3.9
-* Nodejs: ^16.13.0
+- Python: 3.9
+- Nodejs: ^16.13.0
