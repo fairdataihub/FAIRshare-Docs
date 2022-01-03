@@ -1,19 +1,65 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* You can override the default Infima variables here. */
+/* Pick the relevant colors here: https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary-lightest: #19938e;
+  --ifm-color-primary-lighter: #16827d;
+  --ifm-color-primary-light: #157c78;
+  --ifm-color-primary: #13716d;
+  --ifm-color-primary-dark: #116662;
+  --ifm-color-primary-darker: #10605d;
+  --ifm-color-primary-darkest: #0d4f4c;
+  --ifm-link-color: #059669;
+  --ifm-menu-color: #6b7280;
+  --ifm-toc-link-color: #94a3b8;
+  --ifm-menu-color-background-active: #ecfdf5;
+  --ifm-code-background: #f0fdfa;
+}
+
+/* dark theme variables */
+html[data-theme="dark"] {
+  --ifm-color-primary: #4e89e8;
+  --ifm-color-primary-dark: #5a91ea;
+  /* any other colors you wish to overwrite */
+}
+
+/* All the relevant class names can be found here: https://docusaurus.io/docs/styling-layout#theme-class-names */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.theme-doc-markdown,
+.pagination-nav__label,
+.pagination-nav__sublabel,
+.theme-edit-this-page,
+.theme-last-updated,
+.theme-doc-toc-desktop {
+  @apply font-inter;
+}
+
+.theme-last-updated {
+  @apply not-italic;
+}
+
+.footer__title,
+.footer__item,
+.footer__copyright {
+  @apply font-inter;
+}
+
+.token-line,
+code {
+  @apply font-fira-code;
 }
 
 .docusaurus-highlight-code-line {
@@ -23,6 +69,6 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }

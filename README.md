@@ -2,32 +2,52 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+### Project setup
 
-```
-$ yarn
-```
+Make sure to install the dependencies for this project using [yarn](https://yarnpkg.com/)
 
-### Local Development
-
-```
-$ yarn start
+```bash
+yarn install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Compiles and hot-reloads for development
 
-### Build
+Start the development server on http://localhost:3000. This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```bash
+yarn start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### Compiles and minifies for production
+
+Use this step to build a local production version of the site. Use `serve` to preview the local build.
+
+```bash
+yarn build
+yarn serve
+```
+
+### Versioning
+
+You can use the version script to create a new documentation version based on the latest content in the `docs` directory. That specific set of documentation will then be preserved and accessible even as the documentation in the `docs` directory changes moving forward.
+
+1. First, make sure the current docs version (the `docs` directory) is ready to be frozen.
+2. Enter the current version number.
+
+```bash
+yarn run docusaurus docs:version v1.1.0  # or v1.2.0
+```
+
+This will freeze the current version of the documentation. The files under the current `docs` directory will be considered to be `@next` version.
+
+### Addition Information
+
+We recommend to look at the [documentation](https://docusaurus.io/docs).
+
+Note: You will not need to do anything to the hosted site. Continuous Delivery has been setup with Vercel. All you need to do is push your commit and wait for it to deploy.
+
+A special thank you to Vercel for hosting this website.
+
+<a href="https://vercel.com/?utm_source=fairdataihub&utm_campaign=oss" target="_blank">
+  <img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"  width="auto"/>
+</a>

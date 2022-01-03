@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+pagination_prev: null
 ---
 
 # Project Setup
@@ -26,28 +27,24 @@ yarn install
 
 ```
 
-```shell title="For macOS/Linux"
+```shell title="For macOS"
 # create the conda environment from the file
-conda env create -f .\dev\mac-sodacovid-dev.yml   # for macOS
-conda env create -f .\dev\linux-sodacovid-dev.yml # for linux
+conda env create -f .\dev\mac-sodacovid-dev.yml
 
-# activate the conda environment
+# activate the anaconda environment
 conda activate sodacovid-dev
 
-# if you don't have nvm installed use the following instruction
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+# install all the project dependencies
+yarn install
 
-# install nodejs
-nvm install 16
+```
 
-# activate nodejs
-nvm use 16
+```shell title="For Linux"
+# create the conda environment from the file
+conda env create -f .\dev\linux-sodacovid-dev.yml
 
-# verify that you are on node v16.13.0 or higher
-node -v
-
-# install yarn
-npm install -g yarn
+# activate the anaconda environment
+conda activate sodacovid-dev
 
 # install all the project dependencies
 yarn install
@@ -65,16 +62,16 @@ yarn install
 
 ### Python
 
-For python packages we prefer that you use [conda-forge](https://anaconda.org/conda-forge) if possible. This makes exporting your new environment file much easier. If a package that you require is not available here, you can also use pip to install your package. 
+For python packages we prefer that you use [conda-forge](https://anaconda.org/conda-forge) if possible. This makes exporting your new environment file much easier. If a package that you require is not available here, you can also use pip to install your package.
 
-```shell 
+```shell
 conda install -c conda-forge <package-name>
 pip install <package-name>
 ```
 
 ### NodeJS
 
-You can use the vast library provided via [npm](https://www.npmjs.com/) to add any funcionality via JavaScript. In this application we use Vue 3 so please verify that your package is supported by this framework if necessary. Please use Yarn as your package manager. 
+You can use the vast library provided via [npm](https://www.npmjs.com/) to add any funcionality via JavaScript. In this application we use Vue 3 so please verify that your package is supported by this framework if necessary. Please use Yarn as your package manager.
 
 ```shell
 yarn add <package-name>
@@ -84,5 +81,5 @@ yarn add <package-name>
 
 The minimum required programming language and compiler versions are provided below. Please be aware that this is subject to change.
 
-* Python: 3.9
-* Nodejs: ^16.13.0
+- Python: 3.9
+- Nodejs: ^16.13.0
