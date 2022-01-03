@@ -26,7 +26,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
 
           editUrl:
-            "https://github.com/fairdataihub/SODA-for-COVID-19-Research/edit/main/",
+            "https://github.com/fairdataihub/SODA-for-COVID-19-Research-Docs/edit/main/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -34,7 +34,7 @@ const config = {
           showReadingTime: true,
 
           editUrl:
-            "https://github.com/fairdataihub/SODA-for-COVID-19-Research/edit/main/website/blog/",
+            "https://github.com/fairdataihub/SODA-for-COVID-19-Research-Docs/edit/main/website/blog/",
         },
         sitemap: {
           changefreq: "weekly",
