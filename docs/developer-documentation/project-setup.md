@@ -7,6 +7,8 @@ pagination_prev: null
 
 ## Setting up your environment
 
+### Using Anaconda (recommended)
+
 We use Anaconda to keep track of the high level dependencies required to create this application. The environment files required to generate the dev environment have been provided with the repository in the `dev` folder.
 
 :::tip
@@ -51,6 +53,27 @@ yarn install
 
 ```
 
+### Manual installation
+
+#### Using NVM (not recommended)
+
+If you would like to use nvm instead for handling your nodejs versions, this is also possible. However this is not recommended and we would suggest you use the node installation provided to you by [Anaconda](#using-anaconda-recommended).
+
+```shell
+# if you don't have nvm installed use the following instruction
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+
+# install nodejs
+nvm install 16
+
+```
+
+:::caution
+This will also mean that you will need your own local `Python 3.9` installation. All your packages must be installed via the provided `requirements.txt` file
+:::
+
+#### Installing python packages with pip (not recommended)
+
 We also provide a standalone `requirements.txt` file for anyone who wants to use the basic python environment using `venv`. For this case, you will have to install the latest version of `nodejs` and `yarn` before you start any development.
 
 ```shell
@@ -77,9 +100,19 @@ You can use the vast library provided via [npm](https://www.npmjs.com/) to add a
 yarn add <package-name>
 ```
 
+## Updating your environment file
+
+If you have added any new packages and want to update the environment file to reflect these changes use the following instruction to save your changes.
+
+```shell
+conda env export --no-builds > <platform>-sodacovid-dev.yml
+```
+
 ## Language and framework versions
 
-The minimum required programming language and compiler versions are provided below. Please be aware that this is subject to change.
+The minimum required programming language and compiler versions are provided below. Please be aware that this is subject to change. This application might work for run time environments earlier than the ones specified but this has not been tested at the current moment.
 
 - Python: 3.9
 - Nodejs: ^16.13.0
+- Yarn: ^1.22
+
