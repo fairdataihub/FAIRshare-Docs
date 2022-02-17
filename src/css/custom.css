@@ -80,6 +80,10 @@ h6,
   @apply my-5 shadow-lg shadow-teal-800/50;
 }
 
+.table-of-contents__link {
+  @apply text-sm;
+}
+
 .theme-doc-markdown .feedback-divider {
   border-color: var(--hr-color);
   @apply border border-solid rounded-lg;
