@@ -77,7 +77,7 @@ h6,
 
 .theme-doc-markdown img,
 .theme-doc-markdown video {
-  @apply my-5 shadow-lg shadow-teal-800/50;
+  @apply my-5 shadow-lg shadow-orange-200/90;
 }
 
 .table-of-contents__link {
