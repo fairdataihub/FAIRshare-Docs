@@ -3,7 +3,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Fair Share",
+  title: "SODA for COVID-19 Research",
   tagline:
     "Your one-stop tool for rapidly organizing and sharing COVID-19 research data",
   url: "https://docs.fairshareapp.io",
@@ -12,7 +12,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "fairdataihub",
-  projectName: "fairshare",
+  projectName: "SODA-for-COVID-19-Research-Docs",
 
   presets: [
     [

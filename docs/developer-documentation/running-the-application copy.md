@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Running the application
 
-FairShare has been developed as an Electron application running a Vue 3 based front end.
+SODA for COVID-19 Research has been developed as an Electron application running a Vue 3 based front end.
 
 ### Vue frontend running in Electron
 
