@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Fair Share",
+        title: "SODA for COVID-19 Research",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
