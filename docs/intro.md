@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# What is SODA for COVID-19 Research?
+# What is FAIRshare?
 
-SODA (Sofware to Organize Data Automatically) for COVID-19 Research is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines. Learn more about SODA for COVID-19 Research, its impact and its related resources on our website at https://fairdataihub.org/sodaforcovid.
+FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines. Learn more about FAIRshare, its impact and its related resources on our website at https://fairdataihub.org/sodaforcovid.
 
 ### What is COVID-19?
 
@@ -18,7 +18,7 @@ Given the urgency of the pandemic, it is crucial that researchers rapidly curate
 
 Support is lacking to educate and assist the researchers, manual curation is not suitable to manage the amount of data being generated, and there is a lack of standard approach across research labs.
 
-### What does SODA for COVID-19 Research do?
+### What does FAIRshare Research do?
 
 Through intuitive user interfaces and automation, this software provides a standardized tool for rapidly curating and sharing COVID-19 data according to applicable FAIR guidelines.
 

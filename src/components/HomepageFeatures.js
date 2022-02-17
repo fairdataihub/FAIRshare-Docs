@@ -20,8 +20,8 @@ const FeatureList = [
     },
     description: (
       <>
-        SODA for COVID-19 Research was designed from the ground up to be easily
-        installed and used to get your data made available to the world.
+        FAIRshare was designed from the ground up to be easily installed and
+        used to get your data made available to the world.
       </>
     ),
   },
@@ -37,8 +37,8 @@ const FeatureList = [
     },
     description: (
       <>
-        SODA for COVID-19 Research is built to be as simple as possible. We want
-        to make it as easy as possible for you to focus on what matters most.
+        FAIRshare is built to be as simple as possible. We want to make it as
+        easy as possible for you to focus on what matters most.
       </>
     ),
   },
@@ -54,9 +54,9 @@ const FeatureList = [
     },
     description: (
       <>
-        SODA for COVID-19 Research is built on top of the open source software
-        that powers the internet. We are proud to be a part of the open source
-        community. Your data is yours.
+        FAIRshare is built on top of the open source software that powers the
+        internet. We are proud to be a part of the open source community. Your
+        data is yours.
       </>
     ),
   },

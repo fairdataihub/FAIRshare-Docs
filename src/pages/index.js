@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={``}
-      description="Documentation for the SODA for SPARC application"
+      description="Documentation for the FAIRshare application"
     >
       <HomepageHeader />
       <main>

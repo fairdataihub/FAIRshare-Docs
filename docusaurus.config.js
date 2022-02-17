@@ -3,7 +3,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "SODA for COVID-19 Research",
+  title: "FAIRshare",
   tagline:
     "Your one-stop tool for rapidly organizing and sharing COVID-19 research data",
   url: "https://docs.fairshareapp.io",
@@ -12,7 +12,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "fairdataihub",
-  projectName: "SODA-for-COVID-19-Research-Docs",
+  projectName: "FAIRshare-Docs",
 
   presets: [
     [
@@ -22,8 +22,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
 
-          editUrl:
-            "https://github.com/fairdataihub/SODA-for-COVID-19-Research-Docs/edit/main/",
+          editUrl: "https://github.com/fairdataihub/FAIRshare-Docs/edit/main/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           versions: {
@@ -36,7 +35,7 @@ const config = {
           showReadingTime: true,
 
           editUrl:
-            "https://github.com/fairdataihub/SODA-for-COVID-19-Research-Docs/edit/main/website/blog/",
+            "https://github.com/fairdataihub/FAIRshare-Docs/edit/main/website/blog/",
         },
         sitemap: {
           changefreq: "weekly",
@@ -57,7 +56,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "SODA for COVID-19 Research",
+        title: "FAIRshare",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -130,7 +129,7 @@ const config = {
       announcementBar: {
         id: "announcement-bar",
         content:
-          '⭐️ <strong> If you like SODA for COVID-19 Research, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/SODA-for-COVID-19-Research">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>',
+          '⭐️ <strong> If you like FAIRshare, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/SODA-for-COVID-19-Research">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>',
         backgroundColor: "#ecfdf5",
         textColor: "#0f172a",
         isCloseable: true,
@@ -143,12 +142,12 @@ const config = {
         {
           name: "keywords",
           content:
-            "SODA for COVID 19 Research, fair data, fairhub, fairdataihub, software",
+            "SODA for COVID 19 Research,FAIRshare, fair data, fairhub, fairdataihub, software",
         },
         {
           name: "description",
           content:
-            "SODA (Sofware to Organize Data Automatically) for COVID-19 Research is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines.",
+            "FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines.",
         },
         {
           name: "robots",

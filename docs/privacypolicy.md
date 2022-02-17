@@ -12,17 +12,17 @@ In this privacy notice, we seek to explain to you in the clearest way possible w
 
 This privacy policy was last updated on 01/10/2022
 
-### Why do we collect information?
+<!-- ### Why do we collect information?
 
-Tracking is implemented as part of our agreement with the SPARC program to report usage statistics for our application and related documentation. Tracking is also used to spot errors and subsequently improve user experience.
+Tracking is implemented as part of our agreement with the SPARC program to report usage statistics for our application and related documentation. Tracking is also used to spot errors and subsequently improve user experience. -->
 
 ### What information do we collect?
 
-We automatically collect certain information when you launch, use, or navigate SODA (the `App` or `Application`). This information is collected **anonymously** and does not reveal your specific identity (like your name or contact information) but may include device and usage information, operating system, information about how you use SODA, and other technical information.
+We automatically collect certain information when you launch, use, or navigate FAIRshare (the `App` or `Application`). This information is collected **anonymously** and does not reveal your specific identity (like your name or contact information) but may include device and usage information, operating system, information about how you use FAIRshare, and other technical information.
 
-For a detailed list regarding what information is tracked within SODA please refer to [What do we track?](#what-do-we-track).
+For a detailed list regarding what information is tracked within FAIRshare please refer to [What do we track?](#what-do-we-track).
 
-We employ the use of Google Analytics to track and log user events within SODA. To learn more, please visit their [Terms of service](https://marketingplatform.google.com/about/analytics/terms/us/).
+We employ the use of Google Analytics to track and log user events within FAIRshare. To learn more, please visit their [Terms of service](https://marketingplatform.google.com/about/analytics/terms/us/).
 
 ### How do we use the collected information?
 
@@ -36,13 +36,13 @@ We use the information we collect in various ways, including to:
 - Generate usage analytics (number of users, features being used, etc.) for our reporting purposes.
 - Find and prevent fraud
 
-### Will the collected information be shared with anyone?
+<!-- ### Will the collected information be shared with anyone?
 
-Collected information will be shared with the SPARC management team. It may also be shared with other SPARC-funded groups as well as displayed on our [website](https://fairdataihub.org/sodaforsparc).
+Collected information will be shared with the SPARC management team. It may also be shared with other SPARC-funded groups as well as displayed on our [website](https://fairdataihub.org/sodaforsparc). -->
 
 ### Do we use cookies and other tracking technologies?
 
-We use Google's Universal Analytics program to track anonymized user interactions within SODA. To learn more about the technologies used please refer to [Security and privacy in Universal Analytics](https://support.google.com/analytics/answer/2838718?hl=en).
+We use Google's Universal Analytics program to track anonymized user interactions within FAIRshare. To learn more about the technologies used please refer to [Security and privacy in Universal Analytics](https://support.google.com/analytics/answer/2838718?hl=en).
 
 On this documentation platform, Fair Data Innovations Hub uses cookies. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
 
@@ -70,7 +70,7 @@ We will only keep collected usage data for as long as it is necessary for the pu
 
 ### How do we keep the collected data safe?
 
-Collected information is completely anonymized. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cyber-criminals, or other unauthorized third parties will not be able to defeat our security, and improperly collect, access, steal, or modify your information. Although we will do our best to protect your information, the transmission of personal information to and from SODA is always a possible risk. You should only access SODA within a secure environment.
+Collected information is completely anonymized. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cyber-criminals, or other unauthorized third parties will not be able to defeat our security, and improperly collect, access, steal, or modify your information. Although we will do our best to protect your information, the transmission of personal information to and from FAIRshare is always a possible risk. You should only access FAIRshare within a secure environment.
 
 ### CCPA Privacy Rights
 
@@ -116,7 +116,7 @@ _In Short: Yes, if you are a resident of California, you are granted specific ri
 
 California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.
 
-If you are under 18 years of age, reside in California, you have the right to request the removal of unwanted data. To request the removal of such data, please contact us using the contact information provided below, and include a statement that you reside in California. We will make sure the data is not tracked by SODA, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g. backups, etc.).
+If you are under 18 years of age, reside in California, you have the right to request the removal of unwanted data. To request the removal of such data, please contact us using the contact information provided below, and include a statement that you reside in California. We will make sure the data is not tracked by FAIRshare, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g. backups, etc.).
 
 ### Do we make updates to this notice?
 
@@ -126,9 +126,9 @@ We may update this privacy notice from time to time. The updated version will be
 
 Based on your country's applicable laws, you may have the right to request access to the information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request to [bPatel@fairdataihub.org](mailto:bpatel@fairdataihub.org). Alternatively, you can also use [our feedback form](https://fairdataihub.org/contact-us). We will respond to your request within 30 days.
 
-### What do we track?
+<!-- ### What do we track?
 
-All the information that is tracked within SODA is anonymized with privacy in mind. We do not track any passwords, personal details, or other identifying information. The following items are tracked within SODA:
+All the information that is tracked within FAIRshare is anonymized with privacy in mind. We do not track any passwords, personal details, or other identifying information. The following items are tracked within FAIRshare:
 
 - When SODA is opened:
   - Operating system version
@@ -299,7 +299,7 @@ All the information that is tracked within SODA is anonymized with privacy in mi
   - The dataset name and/or ID
 - When you integrate your Pennsieve account with ORCID iD:
   - Success/Errors with integrating
-  - The dataset name and/or ID
+  - The dataset name and/or ID -->
 
 import PageFeedback from '@site/src/components/PageFeedback';
 
