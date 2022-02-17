@@ -130,7 +130,7 @@ const config = {
         id: "announcement-bar",
         content:
           '⭐️ <strong> If you like FAIRshare, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/SODA-for-COVID-19-Research">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>',
-        backgroundColor: "#ecfdf5",
+        backgroundColor: "#eff6ff",
         textColor: "#0f172a",
         isCloseable: true,
       },
