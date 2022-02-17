@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/docs/getting-started/organize-and-submit-sparc-datasets-with-soda"
           >
             View the documentation
           </Link>
@@ -30,8 +30,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={``}
+      description="Documentation for the SODA for SPARC application"
     >
       <HomepageHeader />
       <main>

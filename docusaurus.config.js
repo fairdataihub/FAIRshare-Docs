@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
@@ -29,6 +26,11 @@ const config = {
             "https://github.com/fairdataihub/SODA-for-COVID-19-Research-Docs/edit/main/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          versions: {
+            current: {
+              label: `Upcoming 🚧`,
+            },
+          },
         },
         blog: {
           showReadingTime: true,
@@ -68,10 +70,19 @@ const config = {
             position: "left",
             label: "Documentation",
           },
+          {
+            type: "docsVersionDropdown",
+            position: "right",
+          },
 
           {
             href: "https://github.com/fairdataihub/SODA-for-COVID-19-Research",
             label: "GitHub",
+            position: "right",
+          },
+          {
+            href: "https://fairdataihub.org/contact-us",
+            label: "Contact Us",
             position: "right",
           },
         ],
@@ -83,8 +94,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Change Log",
-                to: "/docs/intro",
+                label: "Changelog",
+                to: "/docs/changelog",
               },
             ],
           },
@@ -119,7 +130,7 @@ const config = {
       announcementBar: {
         id: "announcement-bar",
         content:
-          '⭐️ <strong> If you like Fair Share, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/SODA-for-COVID-19-Research">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>',
+          '⭐️ <strong> If you like SODA for COVID-19 Research, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/SODA-for-COVID-19-Research">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>',
         backgroundColor: "#ecfdf5",
         textColor: "#0f172a",
         isCloseable: true,
@@ -128,7 +139,39 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [
+        {
+          name: "keywords",
+          content:
+            "SODA for COVID 19 Research, fair data, fairhub, fairdataihub, software",
+        },
+        {
+          name: "description",
+          content:
+            "SODA (Sofware to Organize Data Automatically) for COVID-19 Research is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines.",
+        },
+        {
+          name: "robots",
+          content: "index, follow",
+        },
+        {
+          name: "author",
+          content: "Fair Data Innovations Hub",
+        },
+      ],
+      // algolia: {
+      //   appId: "5C68KRW2LG",
+      //   apiKey: "f54157cf9bcb7564a29aa0995e0eb192",
+      //   indexName: "docs-sodaforsparc",
+      //   contextualSearch: true,
+      // },
     }),
+  scripts: [
+    {
+      src: "scripts/uploadcare.js",
+      defer: true,
+    },
+  ],
 };
 
 module.exports = config;

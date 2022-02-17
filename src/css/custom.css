@@ -20,13 +20,45 @@
   --ifm-toc-link-color: #94a3b8;
   --ifm-menu-color-background-active: #ecfdf5;
   --ifm-code-background: #f0fdfa;
+
+  --plum-color: #ba0d49;
+
+  --hr-color: #e5e7eb;
+  --feedback-yes-color: #13716d;
+  --feedback-no-color: var(--plum-color);
 }
+
+/* plum: #ba0d49,
+plum-light: #dd105a,
+plum very light: #f8cdbe7,
+ */
 
 /* dark theme variables */
 html[data-theme="dark"] {
-  --ifm-color-primary: #4e89e8;
-  --ifm-color-primary-dark: #5a91ea;
-  /* any other colors you wish to overwrite */
+  --ifm-color-primary-lightest: #f784b4;
+  --ifm-color-primary-lighter: #f45b9b;
+  --ifm-color-primary-light: #f34d93;
+  --ifm-color-primary: #dd2572;
+  --ifm-color-primary-dark: #ef1771;
+  --ifm-color-primary-darker: #e8106a;
+  --ifm-color-primary-darkest: #bf0d57;
+
+  --ifm-heading-color: #fff;
+
+  --ifm-link-color: #ff227e;
+
+  --ifm-toc-link-color: #ced2d8;
+
+  --ifm-menu-color: #e2dfdf;
+  --ifm-menu-color-active: #f0287c;
+  --ifm-menu-color-background-active: #383838;
+
+  --ifm-code-background: #605c5c;
+
+  --plum-color: #e4467d;
+
+  --hr-color: #334155;
+  --feedback-yes-color: #38b8b1;
 }
 
 /* All the relevant class names can be found here: https://docusaurus.io/docs/styling-layout#theme-class-names */
@@ -47,8 +79,42 @@ h6,
   @apply font-inter;
 }
 
+.theme-doc-markdown img,
+.theme-doc-markdown video {
+  @apply my-5 shadow-lg shadow-teal-800/50;
+}
+
+.theme-doc-markdown .feedback-divider {
+  border-color: var(--hr-color);
+  @apply border border-solid rounded-lg;
+}
+
+.theme-doc-markdown .feedback-button {
+  @apply flex flex-row items-center w-full px-6 py-1 text-lg font-semibold transition-all bg-transparent border-2 border-solid rounded-lg appearance-none cursor-pointer hover:shadow-md hover:-translate-y-px active:shadow-none active:translate-y-0 justify-evenly;
+}
+
+.theme-doc-markdown .feedback-button-yes {
+  @apply text-[color:var(--feedback-yes-color)] border-[color:var(--feedback-yes-color)] hover:shadow-[color:var(--feedback-yes-color)];
+}
+
+.theme-doc-markdown .feedback-button-no {
+  @apply text-[color:var(--feedback-no-color)] border-[color:var(--feedback-no-color)] hover:shadow-[color:var(--feedback-no-color)];
+}
+
+[aria-label="animation"] {
+  @apply m-0 !important;
+}
+
+.table-of-contents__link--active {
+  color: var(--plum-color) !important;
+}
+
 .theme-last-updated {
   @apply not-italic;
+}
+
+.hero__subtitle {
+  color: var(--ifm-heading-color) !important;
 }
 
 .footer__title,

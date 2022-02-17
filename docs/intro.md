@@ -2,34 +2,26 @@
 sidebar_position: 1
 ---
 
-# Changelog
+# What is SODA for COVID-19 Research?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+SODA (Sofware to Organize Data Automatically) for COVID-19 Research is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines. Learn more about SODA for COVID-19 Research, its impact and its related resources on our website at https://fairdataihub.org/sodaforcovid.
 
-## Getting Started
+### What is COVID-19?
 
-Get started by **creating a new site**.
+Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. [Learn more about COVID-19](https://www.who.int/health-topics/coronavirus#tab=tab_1).
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Why are FAIR data practices important?
 
-## Generate a new site
+Given the urgency of the pandemic, it is crucial that researchers rapidly curate and share their data according to applicable FAIR guidelines to promote transparency and increase the pace of discoveries. [Learn more about COVID-19 data sharing](https://fairdataihub.org/niaid.nih.gov/research/share-covid-19-research-data).
 
-Generate a new Docusaurus site using the **classic template**:
+### What are the challenges?
 
-```shell
-npm init docusaurus@latest my-website classic
-```
+Support is lacking to educate and assist the researchers, manual curation is not suitable to manage the amount of data being generated, and there is a lack of standard approach across research labs.
 
-## Start your site
+### What does SODA for COVID-19 Research do?
 
-Run the development server:
+Through intuitive user interfaces and automation, this software provides a standardized tool for rapidly curating and sharing COVID-19 data according to applicable FAIR guidelines.
 
-```shell
-cd my-website
+import PageFeedback from '@site/src/components/PageFeedback';
 
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+<PageFeedback />

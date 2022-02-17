@@ -1,0 +1,78 @@
+---
+sidebar_position: 1
+---
+
+# Download SODA for COVID-19 Research
+
+import { Link } from "@mui/material";
+
+export const DownloadURL = ({ children, os }) => (
+  <a
+    href={`#${os}`}
+    rel="noopener"
+    onClick={async () => {
+      const res = await fetch(
+        "https://api.github.com/repos/fairdataihub/SODA-for-COVID-19-Research/releases"
+      );
+      const data = await res.json();
+      const release = data[0];
+      return release.assets.forEach((asset) => {
+        let file_name = asset.name;
+        let file_ext = file_name.split(".").pop();
+        if (file_ext === "dmg" && os === "macos") {
+          window.open(asset.browser_download_url, "_blank");
+        }
+        if (file_ext === "exe" && os === "windows") {
+          window.open(asset.browser_download_url, "_blank");
+        }
+        if (file_ext === "AppImage" && os === "linux") {
+          window.open(asset.browser_download_url, "_blank");
+        }
+      });
+    }}
+  >
+    {children}
+  </a>
+);
+
+### Windows
+
+This application has been developed and tested on both Windows 10 and Windows 11.
+
+1. <DownloadURL os="windows">Download the Windows installer</DownloadURL>
+2. Double click on the installer (.exe file), it will start the installation process (if there is a permission issue try to right-click and select "Run as administrator").
+3. Follow the installation instructions.
+4. Once the application is installed, you can run the application by either running the desktop shortcut, searching for "SODA" on the start menu, or from the installation folder.
+5. To stop the application, simply click on the cross in the top right corner.
+
+The downloaded installer file could be deleted since it is not necessary to run SODA. The SODA app can be uninstalled from the Program manager (under Control Panel) like any other app on Windows.
+
+### macOS
+
+This application has been developed on macOS Catalina 10.15 and has been tested on both macOS Catalina and Big Sur.
+
+1. <DownloadURL os="macos">Download the macOS installer</DownloadURL>
+2. Double-click on the installer (.dmg file) and, in the installation window, drag the SODA icon into the "Applications" folder. Security preferences may need to be changed (System Preferences > Security & Privacy > General Tab > "Open anyway").
+3. To stop the application, click on the red circle/button in the top left corner.
+
+The downloaded installer could be deleted since it is not necessary to run SODA. To uninstall the SODA app, simply delete it from your computer’s "Applications" folder.
+
+### Ubuntu
+
+This application has been developed and tested on Ubuntu 20.04.2 LTS.
+
+:::info
+SODA for COVID-19 Research may work on other Debian based distributions but we have not tested compatibility at this time.
+:::
+
+1. <DownloadURL os="linux">Download the Linux AppImage</DownloadURL>
+2. Right-click on the downloaded file and go to the permissions tab.
+3. Click `Allow executing file as program` and make sure it is enabled.
+4. Double click the downloaded SODA app icon and it should open the app.
+5. To stop the application, click on the red circle/button in the top left corner.
+
+Since our Linux SODA app is in the AppImage format, you can move this file anywhere on your computer and run it. If you would like to move the app into the applications older, we recommend you use the open-source [AppImage Launcher](https://github.com/TheAssassin/AppImageLauncher) to organize and handle all AppImage programs for your Linux system.
+
+import PageFeedback from "@site/src/components/PageFeedback";
+
+<PageFeedback />

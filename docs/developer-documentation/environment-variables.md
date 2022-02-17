@@ -12,4 +12,4 @@ VUE_APP_ZENODO_SERVER_URL=https://sandbox.zenodo.org/api/
 VUE_APP_ZENODO_ACCESS_TOKEN=YOUR_ACCESS_TOKEN #sign up at sandbox.zenodo.org for a key
 ```
 
-For developers at Fair Data Innovations Hub, you may use the environment variables provided in this repository: [https://github.com/fairdataihub/env-files](https://github.com/fairdataihub/env-files/blob/main/SODA-for-COVID-19-Research)
+For developers at Fair Data Innovations Hub, you may use the environment variables provided in this repository: [@fairdataihub/env-files](https://github.com/fairdataihub/env-files/blob/main/SODA-for-COVID-19-Research)
