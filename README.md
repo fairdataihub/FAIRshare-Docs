@@ -1,6 +1,6 @@
-# Website
+# FAIRshare Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+All documentation for the FAIRshare application will be hosted in this repository. Versioning has been setup for previously released versions of the application.
 
 ### Project setup
 
@@ -33,12 +33,13 @@ You can use the version script to create a new documentation version based on th
 
 1. First, make sure the current docs version (the `docs` directory) is ready to be frozen.
 2. Enter the current version number.
+3. Update the `version` key in package.json for this repository.
 
 ```bash
-yarn run docusaurus docs:version v1.1.0  # or v1.2.0
+yarn run docusaurus docs:version 5.3.0
 ```
 
-This will freeze the current version of the documentation. The files under the current `docs` directory will be considered to be `@next` version.
+This will freeze the current version of the documentation. The files under the current `docs` directory will be considered to be `Upcoming 🚧` version.
 
 ### Addition Information
 
@@ -51,3 +52,4 @@ A special thank you to Vercel for hosting this website.
 <a href="https://vercel.com/?utm_source=fairdataihub&utm_campaign=oss" target="_blank">
   <img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"  width="auto"/>
 </a>
+
