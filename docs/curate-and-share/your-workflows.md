@@ -6,7 +6,7 @@ sidebar_position: 4
 
 ## Background
 
-Each of your project's data types will be seperated into individual workflows. Each workflow will be a set of steps that you will need to complete to curate the data. Since each data type is different, each workflow may differ as well.
+Each of your project's data types will be separated into individual workflows. Each workflow will be a set of steps that you will need to complete to curate the data. Since each data type is different, each workflow may differ as well.
 
 ## How to
 
