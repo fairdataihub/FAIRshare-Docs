@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 9
 ---
 
 # Add your code metadata
@@ -14,7 +14,7 @@ The data you provide in this step will also be used to generate a `citation.cff`
 
 ## How to
 
-:::tip
+:::info
 If you are using a GitHub repository as the source of your data, most of the fields in this section will be automatically filled in for you. Please verify that the fields you see are correct.
 :::
 

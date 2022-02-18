@@ -9,7 +9,7 @@ const config = {
   url: "https://docs.fairshareapp.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "fairdataihub",
   projectName: "FAIRshare-Docs",
