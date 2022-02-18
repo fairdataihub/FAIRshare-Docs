@@ -30,6 +30,11 @@ app.post("/api/feedback", (req, res) => {
       );
 
       try {
+        visitor.screenview({
+          screenName: 'FakeScreen',
+          applicationName: 'FAIRshare Docs',
+        });
+        
         visitor.event(category, action).send();
         res.json({ success: true, message: `Feedback Sent` });
       } catch (error) {
