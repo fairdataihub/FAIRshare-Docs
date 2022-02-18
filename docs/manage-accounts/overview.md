@@ -10,7 +10,7 @@ From here you will be able to manage your connections. To get more infomation ab
 
 Currently FAIRshare is integrated with the following repositories:
 
-- [GitHub](connect-to-github)
-- [Zenodo](connect-to-zenodo)
+- GitHub: [Click here to learn more](connect-to-github)
+- Zenodo: [Click here to learn more](connect-to-zenodo)
 
 ![](./images/overview.png)
