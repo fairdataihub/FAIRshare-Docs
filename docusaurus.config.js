@@ -142,7 +142,7 @@ const config = {
         {
           name: "keywords",
           content:
-            "SODA for COVID 19 Research,FAIRshare, fair data, fairhub, fairdataihub, software",
+            "SODA for COVID 19 Research, FAIRshare, fair data, fairhub, fairdataihub, software",
         },
         {
           name: "description",
