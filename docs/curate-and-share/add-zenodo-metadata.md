@@ -20,11 +20,11 @@ In this section you will be asked to provide the basic information about your da
   - This is the name of your dataset.
 - **Authors** \*
   - **Name (s)** \*
-    - This is the name(s) of the author(s) of your research software. This should be in the format `Family name(s), given name(s)`.
+    - This is the name(s) of the author of your research software. This should be in the format `Family name(s), given name(s)`.
   - **Affiliation** \*
-    - This is the affiliation of the author(s) of your research software.
+    - This is the affiliation of the author of your research software.
   - ORCID
-    - This is the ORCID of the author(s) of your research software.
+    - This is the ORCID of the author of your research software.
 - **Description** \*
   - This is a short description of your dataset. Use a description that is identifiable. This will be shown in the dataset selection screen on Zenodo.
 - Version
@@ -66,11 +66,11 @@ In this section you will be asked to provide the identifiers of any related data
 In this section you will be asked to provide the information about the contributors of your dataset.
 
 - **Name (s)** \*
-  - This is the name(s) of the contributor(s) of your research software. This should be in the format `Family name(s), given name(s)`.
+  - This is the name(s) of the contributor of your research software. This should be in the format `Family name(s), given name(s)`.
 - **Affiliation**
-  - This is the affiliation of the contributor(s) of your research software.
+  - This is the affiliation of the contributor of your research software.
 - ORCID
-  - This is the ORCID of the contributor(s) of your research software.
+  - This is the ORCID of the contributor of your research software.
 - Contributor type
   - This is the type of contributor.
 
@@ -134,6 +134,33 @@ If your dataset is connected to a book, chapter or report, you can provide that 
   - This is the pages of the book.
 
 ![](./images/zenodoMetadataSection8.png)
+
+### Thesis
+
+If your dataset is connected to a thesis publication, you can provide that information here. All of the fields in here are mandatory if available.
+
+- Awarding university
+  - This is the awarding university of the thesis.
+- Supervisors
+  - Name (s)
+    - This is the name(s) of the supervisor of your research software. This should be in the format `Family name(s), given name(s)`.
+  - Affiliation
+    - This is the affiliation of the supervisor of your research software.
+  - ORCID
+    - This is the ORCID of the supervisor of your research software.
+
+![](./images/zenodoMetadataSection9.png)
+
+### Subjects
+
+Specify subjects from a taxonomy or controlled vocabulary. Each term must be uniquely identified (e.g. a URL). For free form text, use the keywords field in basic information section. This section is optional.
+
+- Term
+  - This is the term of the subject.
+- Identifier
+  - This is the identifier of the subject.
+
+![](./images/zenodoMetadataSection10.png)
 
 After filling all the relevant data in the above sections, you can click on the `continue` button to move on to the next step.
 
