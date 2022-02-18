@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Start a project workflow
@@ -10,7 +10,7 @@ Each of your project's data types will be seperated into individual workflows. E
 
 ## How to
 
-Click on the workflow you want to start. FAIRshare will guide you through the steps to complete every workflow. All your changes will be saved automatically so you can come back to it later.
+Click on the workflow you want to start. FAIRshare will guide you through the steps to complete every workflow. All your changes from this step onwards will be saved automatically so you can come back to it later.
 
 ![](./images/showAllWorkflows.png)
 
