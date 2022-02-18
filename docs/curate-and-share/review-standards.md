@@ -10,7 +10,7 @@ To make research software FAIR, you need to make sure that your code meets the b
 
 ## How to
 
-- Answer the questions in the [best practices checklist](/best-practices)
+- Answer the questions in the [best practices checklist](/)
 - Click on the `Continue` button
 
 ![](./images/reviewStandards.png)
