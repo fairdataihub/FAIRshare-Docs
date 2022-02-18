@@ -12,11 +12,11 @@ Within FAIRshare, projects can be defined as a complete set of data that you are
 
 Some key infomation about each project will also be shown here. This should help you to understand what each project is about and what it is intended for.
 
-You can create a new project by clicking on the `Start a new data curation project` button at the bottom right of the page. You can learn more about [projects here](/)
+You can create a new project by clicking on the `Start a new data curation project` button at the bottom right of the page. You can learn more about [this step here](/)
 
-Left click on a specific project to get the following options:
+Click on a specific project to get the following options:
 
-1. [Edit the project](/)
+1. [Edit the project](project-settings)
 2. [Start curation](/)
 
 import PageFeedback from "@site/src/components/PageFeedback";

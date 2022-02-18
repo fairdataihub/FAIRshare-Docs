@@ -75,11 +75,6 @@ h6,
   @apply font-inter;
 }
 
-.theme-doc-markdown img,
-.theme-doc-markdown video {
-  @apply my-5 shadow-lg shadow-orange-200/90;
-}
-
 .table-of-contents__link {
   @apply text-sm;
 }
@@ -133,6 +128,16 @@ code {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+.theme-doc-markdown img,
+.theme-doc-markdown video {
+  @apply my-5 shadow-xl shadow-blue-200/90;
+}
+
+html[data-theme="dark"] .theme-doc-markdown img,
+.theme-doc-markdown video {
+  @apply my-5 shadow-lg shadow-orange-500;
 }
 
 html[data-theme="dark"] .docusaurus-highlight-code-line {

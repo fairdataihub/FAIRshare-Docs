@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# User Interface
+# User interface
 
 FAIRshare has been designed with the user in mind. The user interface is designed to be intuitive and easy to use.
 
