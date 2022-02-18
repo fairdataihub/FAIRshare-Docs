@@ -31,12 +31,11 @@ app.post("/api/feedback", (req, res) => {
 
       try {
         visitor.event(category, action).send();
+        res.json({ success: true, message: `Feedback Sent` });
       } catch (error) {
         console.log(error);
         res.status(500).json({ message: `Something went wrong ${error}` });
       }
-
-      res.json({ success: true, message: `Feedback Sent` });
     }
   }
 });
