@@ -15,7 +15,7 @@ VUE_APP_ZENODO_URL=https://sandbox.zenodo.org
 # GitHub
 VUE_APP_GITHUB_SERVER_URL=https://api.github.com
 
-# Tokens encryption key
+# Access Token encryption key
 # You will have to disconnect and reconnect your accounts for this to take effect.
 VUE_APP_ENCRYPTION_KEY=XXXXXXX  # You can use any string here.
 
