@@ -4,8 +4,6 @@ name: misspell-fixer-action
 on:
   push:
     branches: ["main"]
-  pull_request:
-    branches: ["main"]
 
   workflow_dispatch:
 
