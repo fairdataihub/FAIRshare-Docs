@@ -31,7 +31,7 @@ yarn install
 
 ```shell title="For macOS"
 # create the conda environment from the file
-conda env create -f .\dev\mac-sodacovid-dev.yml
+conda env create -f ./dev/mac-sodacovid-dev.yml
 
 # activate the anaconda environment
 conda activate sodacovid-dev
@@ -43,7 +43,7 @@ yarn install
 
 ```shell title="For Linux"
 # create the conda environment from the file
-conda env create -f .\dev\linux-sodacovid-dev.yml
+conda env create -f ./dev/linux-sodacovid-dev.yml
 
 # activate the anaconda environment
 conda activate sodacovid-dev
