@@ -29,4 +29,4 @@ VUE_APP_GITHUB_OAUTH_CLIENT_SECRET=XXXXXXX
 If you need to create your own dev environment, you can provide your own value for the environment variables. None of these will affect the data that you already have and only refers to the login mechanisms.
 :::
 
-For developers at Fair Data Innovations Hub, you may use the environment variables provided in this repository: [@fairdataihub/env-files](https://github.com/fairdataihub/env-files/blob/main/SODA-for-COVID-19-Research)
+For developers at Fair Data Innovations Hub, you may use the environment variables provided in this repository: [@fairdataihub/env-files](https://github.com/fairdataihub/env-files/blob/main/FAIRshare)

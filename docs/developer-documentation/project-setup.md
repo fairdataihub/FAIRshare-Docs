@@ -19,10 +19,10 @@ Each operating system requires its own environment to develop in. To facilitate 
 
 ```shell title="For Windows"
 # create the conda environment from the file
-conda env create -f .\dev\win-sodacovid-dev.yml
+conda env create -f .\dev\win-fairshare-dev.yml
 
 # activate the anaconda environment
-conda activate sodacovid-dev
+conda activate fairshare-dev
 
 # install all the project dependencies
 yarn install
@@ -31,10 +31,10 @@ yarn install
 
 ```shell title="For macOS"
 # create the conda environment from the file
-conda env create -f .\dev\mac-sodacovid-dev.yml
+conda env create -f ./dev/mac-fairshare-dev.yml
 
 # activate the anaconda environment
-conda activate sodacovid-dev
+conda activate fairshare-dev
 
 # install all the project dependencies
 yarn install
@@ -43,10 +43,10 @@ yarn install
 
 ```shell title="For Linux"
 # create the conda environment from the file
-conda env create -f .\dev\linux-sodacovid-dev.yml
+conda env create -f ./dev/linux-fairshare-dev.yml
 
 # activate the anaconda environment
-conda activate sodacovid-dev
+conda activate fairshare-dev
 
 # install all the project dependencies
 yarn install
@@ -105,7 +105,7 @@ yarn add <package-name>
 If you have added any new packages and want to update the environment file to reflect these changes use the following instruction to save your changes.
 
 ```shell
-conda env export --no-builds > <platform>-sodacovid-dev.yml
+conda env export --no-builds > <platform>-fairshare-dev.yml
 ```
 
 ## Language and framework versions

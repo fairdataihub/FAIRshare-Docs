@@ -38,7 +38,7 @@ We use the information we collect in various ways, including to:
 
 <!-- ### Will the collected information be shared with anyone?
 
-Collected information will be shared with the SPARC management team. It may also be shared with other SPARC-funded groups as well as displayed on our [website](https://fairdataihub.org/sodaforsparc). -->
+Collected information will be shared with the SPARC management team. It may also be shared with other SPARC-funded groups as well as displayed on our [website](https://fairdataihub.org/fairshare). -->
 
 ### Do we use cookies and other tracking technologies?
 

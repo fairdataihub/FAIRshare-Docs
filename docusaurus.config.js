@@ -75,7 +75,7 @@ const config = {
           },
 
           {
-            href: "https://github.com/fairdataihub/SODA-for-COVID-19-Research",
+            href: "https://github.com/fairdataihub/FAIRshare",
             label: "GitHub",
             position: "right",
           },
@@ -116,7 +116,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/fairdataihub/SODA-for-COVID-19-Research",
+                href: "https://github.com/fairdataihub/FAIRshare",
               },
             ],
           },
@@ -129,7 +129,7 @@ const config = {
       announcementBar: {
         id: "announcement-bar",
         content:
-          '⭐️ <strong> If you like FAIRshare, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/SODA-for-COVID-19-Research">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>',
+          '⭐️ <strong> If you like FAIRshare, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/FAIRshare">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>',
         backgroundColor: "#eff6ff",
         textColor: "#0f172a",
         isCloseable: true,
@@ -161,7 +161,7 @@ const config = {
       // algolia: {
       //   appId: "5C68KRW2LG",
       //   apiKey: "f54157cf9bcb7564a29aa0995e0eb192",
-      //   indexName: "docs-sodaforsparc",
+      //   indexName: "docs-fairshare",
       //   contextualSearch: true,
       // },
     }),
