@@ -20,7 +20,8 @@ Here you will be able to modify your project's name and description. To save you
 At the moment you will not be able to change the data types that you have selected for your project.
 :::
 
-![](./images/projectSettings.png)
+<!-- # ADD IMAGE!!! -->
+<!-- ![](./images/projectSettings.png) -->
 
 ### Delete a project
 
