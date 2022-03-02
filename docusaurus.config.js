@@ -126,8 +126,8 @@ const config = {
       },
       announcementBar: {
         id: 'announcement-bar',
-        content:
-          '⭐️ <strong> If you like FAIRshare, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/FAIRshare">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>',
+        // eslint-disable-next-line max-len
+        content: `⭐️ <strong> If you like FAIRshare, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/FAIRshare">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>`,
         backgroundColor: '#eff6ff',
         textColor: '#0f172a',
         isCloseable: true,
@@ -144,8 +144,8 @@ const config = {
         },
         {
           name: 'description',
-          content:
-            'FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines.',
+          // eslint-disable-next-line max-len
+          content: `FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines.`,
         },
         {
           name: 'robots',

@@ -1,3 +1,4 @@
+/* eslint-disable */
 (function (src, cb) {
   const s = document.createElement('script');
   s.setAttribute('src', src);
