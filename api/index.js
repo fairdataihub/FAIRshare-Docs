@@ -27,7 +27,7 @@ app.post('/api/feedback', (req, res) => {
     const { category, action } = body;
 
     // eslint-disable-next-line no-console
-    console.log(`Feedback submitted for Category '${category}' with Action '${action}'`);
+    console.log(`Feedback submitted for Category '${category}' with Action '${action}' `);
 
     const config = {
       method: 'post',
