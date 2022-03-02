@@ -1,10 +1,57 @@
 /* eslint-disable max-len */
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // eslint-disable-next-line import/no-unresolved
 import Link from '@docusaurus/Link';
+import Lottie from 'react-lottie';
+import { useCookies } from 'react-cookie';
+import CookiesLottieJSON from './cookies.json';
+
+export function ExternalLinkSVG() {
+  return (
+    <svg
+      width="13.5"
+      height="13.5"
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      // eslint-disable-next-line max-len
+      className="iconExternalLink_node_modules-@docusaurus-theme-classic-lib-next-theme-IconExternalLink-styles-module"
+    >
+      <path
+        fill="currentColor"
+        // eslint-disable-next-line max-len
+        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"
+      />
+    </svg>
+  );
+}
 
 export default function FooterWrapper() {
+  const animationOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: CookiesLottieJSON,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
+
+  const [showCookieBanner, setShowCookieBanner] = useState(false);
+  const [cookies, setCookie] = useCookies(['cookieConsent']);
+
+  const handleCookieBannerClose = () => {
+    setShowCookieBanner(false);
+    setCookie('cookieConsent', true, { path: '/', maxAge: 60 * 60 * 24 * 60 });
+  };
+
+  useEffect(() => {
+    if (cookies.cookieConsent) {
+      setShowCookieBanner(false);
+    } else {
+      setShowCookieBanner(true);
+    }
+  }, [cookies]);
+
   return (
     <div>
       <footer className="bg-[color:var(--footer-background-color)]">
@@ -384,12 +431,16 @@ export default function FooterWrapper() {
                 <ul className="m-0 list-outside list-none p-0">
                   <li className="pb-2 text-base ">
                     <div className="h-max w-max scale-100  transition-all hover:scale-105">
-                      <Link href="https://fairdataihub.org/team">About</Link>
+                      <Link href="https://fairdataihub.org/team">
+                        About <ExternalLinkSVG />
+                      </Link>
                     </div>
                   </li>
                   <li className="pb-2 text-base ">
                     <div className="h-max w-max scale-100  transition-all hover:scale-105">
-                      <Link href="https://fairdataihub.org/contact-us">Contact Us</Link>
+                      <Link href="https://fairdataihub.org/contact-us">
+                        Contact Us <ExternalLinkSVG />
+                      </Link>
                     </div>
                   </li>
                 </ul>
@@ -440,7 +491,30 @@ export default function FooterWrapper() {
               </a>
             </div>
           </div>
-          {/* <span>{cookieConsent}</span> */}
+
+          {/* Cookie notification container */}
+          {showCookieBanner && (
+            <div className="fixed bottom-20 right-3 hidden max-w-[280px] scale-95 rounded-lg border-2 border-green-200 bg-zinc-50 shadow-md  transition-all hover:scale-100 hover:shadow-xl sm:flex">
+              <div className="mb-2 flex flex-col items-center justify-center py-2 px-4">
+                <Lottie options={animationOptions} height={150} width={150} />
+                <p className="mb-1 text-left text-sm text-gray-600">
+                  We use cookies to understand how you use our website and make your experience
+                  better.
+                </p>
+                <p className="mb-3 text-left text-sm text-gray-600">
+                  To learn more read our <Link href="/docs/privacypolicy">privacy policy</Link> and{' '}
+                  <Link href="/docs/cookiepolicy">cookie policy</Link>.
+                </p>
+                <button
+                  className="cookie-button cookie-button-yes !text-base"
+                  onClick={handleCookieBannerClose}
+                  type="button"
+                >
+                  Okay, I Agree
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </footer>
     </div>

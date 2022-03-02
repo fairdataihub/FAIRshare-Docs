@@ -84,11 +84,13 @@ h6,
   @apply border border-solid rounded-lg;
 }
 
-.theme-doc-markdown .feedback-button {
+.theme-doc-markdown .feedback-button,
+.cookie-button {
   @apply flex flex-row items-center w-full px-6 py-1 text-lg font-semibold transition-all bg-transparent border-2 border-solid rounded-lg appearance-none cursor-pointer hover:shadow-md hover:-translate-y-px active:shadow-none active:translate-y-0 justify-evenly;
 }
 
-.theme-doc-markdown .feedback-button-yes {
+.theme-doc-markdown .feedback-button-yes,
+.cookie-button-yes {
   @apply text-[color:var(--feedback-yes-color)] border-[color:var(--feedback-yes-color)] hover:shadow-[color:var(--feedback-yes-color)];
 }
 
