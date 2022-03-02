@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 
-app.post('/api/feedback', (req, res) => {
+app.post('/api/feedback', async (req, res) => {
   const { body } = req;
 
   // eslint-disable-next-line no-console
@@ -38,14 +38,14 @@ app.post('/api/feedback', (req, res) => {
       },
     };
 
-    axios(config)
-      // eslint-disable-next-line no-unused-vars
-      .then((_response) => {
-        res.json({ success: true, message: `Feedback Sent` });
-      })
-      .catch((error) => {
-        res.status(500).json({ message: `Something went wrong: ${error}` });
-      });
+    try {
+      await axios(config);
+    } catch (error) {
+      res.status(500).json({ message: `Something went wrong: ${error}` });
+      throw new Error('Unable to get a token.');
+    }
+
+    res.json({ success: true, message: `Feedback Sent` });
   }
 });
 
