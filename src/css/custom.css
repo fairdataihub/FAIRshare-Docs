@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -29,7 +29,7 @@
 }
 
 /* dark theme variables */
-html[data-theme="dark"] {
+html[data-theme='dark'] {
   --ifm-color-primary-lightest: #fba365;
   --ifm-color-primary-lighter: #fa8b3e;
   --ifm-color-primary-light: #fa8330;
@@ -96,7 +96,7 @@ h6,
   @apply text-[color:var(--feedback-no-color)] border-[color:var(--feedback-no-color)] hover:shadow-[color:var(--feedback-no-color)];
 }
 
-[aria-label="animation"] {
+[aria-label='animation'] {
   @apply m-0 !important;
 }
 
@@ -135,11 +135,11 @@ code {
   @apply my-5 shadow-xl shadow-blue-200/90;
 }
 
-html[data-theme="dark"] .theme-doc-markdown img,
+html[data-theme='dark'] .theme-doc-markdown img,
 .theme-doc-markdown video {
   @apply my-5 shadow-lg shadow-orange-500;
 }
 
-html[data-theme="dark"] .docusaurus-highlight-code-line {
+html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }

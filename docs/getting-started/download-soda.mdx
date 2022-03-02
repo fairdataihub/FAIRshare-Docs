@@ -4,29 +4,27 @@ sidebar_position: 1
 
 # Download FAIRshare
 
-import { Link } from "@mui/material";
+import { Link } from '@mui/material';
 
 export const DownloadURL = ({ children, os }) => (
   <a
     href={`#${os}`}
     rel="noopener"
     onClick={async () => {
-      const res = await fetch(
-        "https://api.github.com/repos/fairdataihub/FAIRshare/releases"
-      );
+      const res = await fetch('https://api.github.com/repos/fairdataihub/FAIRshare/releases');
       const data = await res.json();
       const release = data[0];
       return release.assets.forEach((asset) => {
         let file_name = asset.name;
-        let file_ext = file_name.split(".").pop();
-        if (file_ext === "dmg" && os === "macos") {
-          window.open(asset.browser_download_url, "_blank");
+        let file_ext = file_name.split('.').pop();
+        if (file_ext === 'dmg' && os === 'macos') {
+          window.open(asset.browser_download_url, '_blank');
         }
-        if (file_ext === "exe" && os === "windows") {
-          window.open(asset.browser_download_url, "_blank");
+        if (file_ext === 'exe' && os === 'windows') {
+          window.open(asset.browser_download_url, '_blank');
         }
-        if (file_ext === "AppImage" && os === "linux") {
-          window.open(asset.browser_download_url, "_blank");
+        if (file_ext === 'AppImage' && os === 'linux') {
+          window.open(asset.browser_download_url, '_blank');
         }
       });
     }}
@@ -77,6 +75,6 @@ FAIRshare may work on other Debian based distributions but we have not tested co
 
 Since our Linux version of the FAIRshare app is in the AppImage format, you can move this file anywhere on your computer and run it. If you would like to move the app into the applications older, we recommend you use the open-source [AppImage Launcher](https://github.com/TheAssassin/AppImageLauncher) to organize and handle all AppImage programs for your Linux system.
 
-import PageFeedback from "@site/src/components/PageFeedback";
+import PageFeedback from '@site/src/components/PageFeedback';
 
 <PageFeedback />

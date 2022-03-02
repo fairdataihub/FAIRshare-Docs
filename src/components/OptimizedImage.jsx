@@ -1,5 +1,6 @@
-import React from "react";
+import React from 'react';
 
+// eslint-disable-next-line react/prop-types
 export default function OptimizedImage({ src, alt }) {
   return (
     <p>

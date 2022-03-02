@@ -1,9 +1,9 @@
 ---
 name: Feature request
 about: Suggest a feature you would like us to integrate in to this documentaion
-title: ""
-labels: ""
-assignees: ""
+title: ''
+labels: ''
+assignees: ''
 ---
 
 **Is your feature request related to a problem? Please describe.**

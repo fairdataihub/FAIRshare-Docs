@@ -31,6 +31,7 @@ app.post('/api/feedback', (req, res) => {
 
     const config = {
       method: 'post',
+      // eslint-disable-next-line max-len
       url: `https://www.google-analytics.com/collect?v=1&t=event&tid=${process.env.UNIVERSAL_ANALYTICS_ID}&cid=${clientID}&ec=${category}&ea=${action}`,
       headers: {
         'User-Agent': 'Mozilla/5.0',
@@ -38,10 +39,11 @@ app.post('/api/feedback', (req, res) => {
     };
 
     axios(config)
-      .then(function (_response) {
+      // eslint-disable-next-line no-unused-vars
+      .then((_response) => {
         res.json({ success: true, message: `Feedback Sent` });
       })
-      .catch(function (error) {
+      .catch((error) => {
         res.status(500).json({ message: `Something went wrong: ${error}` });
       });
   }

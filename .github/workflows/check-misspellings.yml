@@ -3,7 +3,7 @@ name: misspell-fixer-action
 
 on:
   push:
-    branches: ["main"]
+    branches: ['main']
 
   workflow_dispatch:
 
@@ -17,5 +17,5 @@ jobs:
       - uses: peter-evans/create-pull-request@main
         with:
           token: ${{ secrets.BOT_ACTIONS }}
-          commit-message: "Fixes by misspell-fixer"
-          title: "Typos fix by misspell-fixer"
+          commit-message: 'Fixes by misspell-fixer'
+          title: 'Typos fix by misspell-fixer'

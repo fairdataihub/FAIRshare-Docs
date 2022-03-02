@@ -1,28 +1,27 @@
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "FAIRshare",
-  tagline:
-    "Your one-stop tool for rapidly organizing and sharing COVID-19 research data",
-  url: "https://docs.fairshareapp.io",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "throw",
-  favicon: "img/favicon.ico",
-  organizationName: "fairdataihub",
-  projectName: "FAIRshare-Docs",
+  title: 'FAIRshare',
+  tagline: 'Your one-stop tool for rapidly organizing and sharing COVID-19 research data',
+  url: 'https://docs.fairshareapp.io',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
+  favicon: 'img/favicon.ico',
+  organizationName: 'fairdataihub',
+  projectName: 'FAIRshare-Docs',
 
   presets: [
     [
-      "@docusaurus/preset-classic",
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve('./sidebars.js'),
 
-          editUrl: "https://github.com/fairdataihub/FAIRshare-Docs/edit/main/",
+          editUrl: 'https://github.com/fairdataihub/FAIRshare-Docs/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           versions: {
@@ -34,15 +33,14 @@ const config = {
         blog: {
           showReadingTime: true,
 
-          editUrl:
-            "https://github.com/fairdataihub/FAIRshare-Docs/edit/main/website/blog/",
+          editUrl: 'https://github.com/fairdataihub/FAIRshare-Docs/edit/main/website/blog/',
         },
         sitemap: {
-          changefreq: "weekly",
+          changefreq: 'weekly',
           priority: 0.5,
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
         // gtag: {
         //   trackingID: "Change this",
@@ -56,67 +54,67 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "FAIRshare",
+        title: 'FAIRshare',
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: 'My Site Logo',
+          src: 'img/logo.svg',
         },
         hideOnScroll: true,
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Documentation",
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Documentation',
           },
           {
-            type: "docsVersionDropdown",
-            position: "right",
+            type: 'docsVersionDropdown',
+            position: 'right',
           },
 
           {
-            href: "https://github.com/fairdataihub/FAIRshare",
-            label: "GitHub",
-            position: "right",
+            href: 'https://github.com/fairdataihub/FAIRshare',
+            label: 'GitHub',
+            position: 'right',
           },
           {
-            href: "https://fairdataihub.org/contact-us",
-            label: "Contact Us",
-            position: "right",
+            href: 'https://fairdataihub.org/contact-us',
+            label: 'Contact Us',
+            position: 'right',
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         links: [
           {
-            title: "Docs",
+            title: 'Docs',
             items: [
               {
-                label: "Changelog",
-                to: "/docs/changelog",
+                label: 'Changelog',
+                to: '/docs/changelog',
               },
             ],
           },
           {
-            title: "Community",
+            title: 'Community',
             items: [
               {
-                label: "Homepage",
-                href: "https://fairdataihub.org",
+                label: 'Homepage',
+                href: 'https://fairdataihub.org',
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/fairdataihub",
+                label: 'Twitter',
+                href: 'https://twitter.com/fairdataihub',
               },
             ],
           },
           {
-            title: "More",
+            title: 'More',
             items: [
               {
-                label: "GitHub",
-                href: "https://github.com/fairdataihub/FAIRshare",
+                label: 'GitHub',
+                href: 'https://github.com/fairdataihub/FAIRshare',
               },
             ],
           },
@@ -127,11 +125,11 @@ const config = {
         respectPrefersColorScheme: false,
       },
       announcementBar: {
-        id: "announcement-bar",
+        id: 'announcement-bar',
         content:
           '⭐️ <strong> If you like FAIRshare, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/fairdataihub/FAIRshare">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>',
-        backgroundColor: "#eff6ff",
-        textColor: "#0f172a",
+        backgroundColor: '#eff6ff',
+        textColor: '#0f172a',
         isCloseable: true,
       },
       prism: {
@@ -140,22 +138,22 @@ const config = {
       },
       metadata: [
         {
-          name: "keywords",
+          name: 'keywords',
           content:
-            "SODA for COVID 19 Research, FAIRshare, fair data, fairhub, fairdataihub, software",
+            'SODA for COVID 19 Research, FAIRshare, fair data, fairhub, fairdataihub, software',
         },
         {
-          name: "description",
+          name: 'description',
           content:
-            "FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines.",
+            'FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines.',
         },
         {
-          name: "robots",
-          content: "index, follow",
+          name: 'robots',
+          content: 'index, follow',
         },
         {
-          name: "author",
-          content: "Fair Data Innovations Hub",
+          name: 'author',
+          content: 'Fair Data Innovations Hub',
         },
       ],
       // algolia: {
@@ -167,7 +165,7 @@ const config = {
     }),
   scripts: [
     {
-      src: "scripts/uploadcare.js",
+      src: 'scripts/uploadcare.js',
       defer: true,
     },
   ],

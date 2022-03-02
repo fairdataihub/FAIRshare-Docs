@@ -1,9 +1,9 @@
 ---
 name: Report issue
 about: Let us know of any issues you encounter in the documentation
-title: ""
-labels: ""
-assignees: ""
+title: ''
+labels: ''
+assignees: ''
 ---
 
 **Describe the issue**
