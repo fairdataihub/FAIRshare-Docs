@@ -81,21 +81,21 @@ h6,
 
 .theme-doc-markdown .feedback-divider {
   border-color: var(--hr-color);
-  @apply border border-solid rounded-lg;
+  @apply rounded-lg border border-solid;
 }
 
 .theme-doc-markdown .feedback-button,
 .cookie-button {
-  @apply flex flex-row items-center w-full px-6 py-1 text-lg font-semibold transition-all bg-transparent border-2 border-solid rounded-lg appearance-none cursor-pointer hover:shadow-md hover:-translate-y-px active:shadow-none active:translate-y-0 justify-evenly;
+  @apply flex w-full cursor-pointer appearance-none flex-row items-center justify-evenly rounded-lg border-2 border-solid bg-transparent px-6 py-1 text-lg font-semibold transition-all hover:-translate-y-px hover:shadow-md active:translate-y-0 active:shadow-none;
 }
 
 .theme-doc-markdown .feedback-button-yes,
 .cookie-button-yes {
-  @apply text-[color:var(--feedback-yes-color)] border-[color:var(--feedback-yes-color)] hover:shadow-[color:var(--feedback-yes-color)];
+  @apply border-[color:var(--feedback-yes-color)] text-[color:var(--feedback-yes-color)] hover:shadow-[color:var(--feedback-yes-color)];
 }
 
 .theme-doc-markdown .feedback-button-no {
-  @apply text-[color:var(--feedback-no-color)] border-[color:var(--feedback-no-color)] hover:shadow-[color:var(--feedback-no-color)];
+  @apply border-[color:var(--feedback-no-color)] text-[color:var(--feedback-no-color)] hover:shadow-[color:var(--feedback-no-color)];
 }
 
 [aria-label='animation'] {
