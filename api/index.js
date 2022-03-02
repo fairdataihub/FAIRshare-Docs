@@ -1,12 +1,12 @@
-const express = require('express');
-const axios = require('axios');
-const { v4: uuidv4 } = require('uuid');
+const express = require("express");
+const axios = require("axios");
+const { v4: uuidv4 } = require("uuid");
 
 const app = express();
 
 app.use(express.json());
 
-app.post('/api/feedback', (req, res) => {
+app.post("/api/feedback", (req, res) => {
   const { body } = req;
 
   // eslint-disable-next-line no-console
@@ -14,8 +14,8 @@ app.post('/api/feedback', (req, res) => {
 
   const clientID = uuidv4();
 
-  res.setHeader('Content-Type', 'text/html');
-  res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
+  res.setHeader("Content-Type", "text/html");
+  res.setHeader("Cache-Control", "s-max-age=1, stale-while-revalidate");
 
   if (body === undefined) {
     res.status(400).json({ message: `Invalid Request ${req.body}` });
@@ -27,13 +27,15 @@ app.post('/api/feedback', (req, res) => {
     const { category, action } = body;
 
     // eslint-disable-next-line no-console
-    console.log(`Feedback submitted for Category '${category}' with Action '${action}'`);
+    console.log(
+      `Feedback submitted for Category '${category}' with Action '${action}'`
+    );
 
     const config = {
-      method: 'post',
+      method: "post",
       url: `https://www.google-analytics.com/collect?v=1&t=event&tid=${process.env.UNIVERSAL_ANALYTICS_ID}&cid=${clientID}&ec=${category}&ea=${action}`,
       headers: {
-        'User-Agent': 'Mozilla/5.0',
+        "User-Agent": "Mozilla/5.0",
       },
     };
 
