@@ -63,8 +63,8 @@ function AskFeedback({ setShowSuccess }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center w-full mt-4 sm:flex-row">
-      <h3 className="pr-5 mb-5 sm:mb-0 w-max"> Was this page helpful? </h3>
+    <div className="mt-4 flex w-full flex-col items-center justify-center sm:flex-row">
+      <h3 className="mb-5 w-max pr-5 sm:mb-0"> Was this page helpful? </h3>
 
       <div className="flex items-center justify-center space-x-4">
         <button
@@ -132,7 +132,7 @@ function PageFeedback() {
   const [showSuccess, setShowSuccess] = React.useState(false);
 
   return (
-    <div className="w-full mt-4 ">
+    <div className="mt-4 w-full ">
       <hr className="feedback-divider" />
 
       {showSuccess ? <ShowSuccessMessage /> : <AskFeedback setShowSuccess={setShowSuccess} />}
