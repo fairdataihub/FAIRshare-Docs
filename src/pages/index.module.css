@@ -17,7 +17,5 @@
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @apply flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0;
 }
