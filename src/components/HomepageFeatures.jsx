@@ -20,6 +20,8 @@ const FeatureList = [
         preserveAspectRatio: 'xMidYMid slice',
       },
     },
+    height: 300,
+    width: 300,
     description: (
       <>
         FAIRshare was designed from the ground up to be easily installed and used to get your data
@@ -37,6 +39,8 @@ const FeatureList = [
         preserveAspectRatio: 'xMidYMid slice',
       },
     },
+    height: 300,
+    width: 300,
     description: (
       <>
         FAIRshare is built to be as simple as possible. We want to make it as easy as possible for
@@ -54,6 +58,8 @@ const FeatureList = [
         preserveAspectRatio: 'xMidYMid slice',
       },
     },
+    height: 400,
+    width: 400,
     description: (
       <>
         FAIRshare is built on top of the open source software that powers the internet. We are proud
@@ -64,11 +70,11 @@ const FeatureList = [
 ];
 
 // eslint-disable-next-line react/prop-types
-function Feature({ animationOptions, title, description }) {
+function Feature({ animationOptions, title, height, width, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="flex justify-center py-4">
-        <Lottie options={animationOptions} height={300} width={300} />
+        <Lottie options={animationOptions} height={height} width={width} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -82,7 +88,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className="row flex items-end">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
