@@ -14,3 +14,7 @@ Currently FAIRshare is integrated with the following repositories:
 - Zenodo: [Click here to learn more](connect-to-zenodo)
 
 ![](./images/overview.png)
+
+import PageFeedback from '@site/src/components/PageFeedback';
+
+<PageFeedback />

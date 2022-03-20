@@ -43,3 +43,7 @@ If you want the backend to also run alongside the browser instance, just open a 
 ```shell
 yarn python:dev
 ```
+
+import PageFeedback from '@site/src/components/PageFeedback';
+
+<PageFeedback />

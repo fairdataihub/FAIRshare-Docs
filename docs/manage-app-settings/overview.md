@@ -33,3 +33,7 @@ Items in this folder should not be modified by the user.
 This option is available in the `Advanced` section of the settings page.
 
 In here you will be able to open the folder where some of log files of the FAIRshare backend service are stored. This option is only needed if the developer team needs access to your log files.
+
+import PageFeedback from '@site/src/components/PageFeedback';
+
+<PageFeedback />

@@ -41,3 +41,7 @@ You can also push your build to a draft release on GitHub. You will need to have
 ```shell
 yarn electron:build-release
 ```
+
+import PageFeedback from '@site/src/components/PageFeedback';
+
+<PageFeedback />

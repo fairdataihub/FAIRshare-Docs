@@ -115,3 +115,7 @@ The minimum required programming language and compiler versions are provided bel
 - Python: 3.9
 - Nodejs: ^16.13.0
 - Yarn: ^1.22
+
+import PageFeedback from '@site/src/components/PageFeedback';
+
+<PageFeedback />
