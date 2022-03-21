@@ -18,7 +18,7 @@ Given the urgency of the pandemic, it is crucial that researchers rapidly curate
 
 Support is lacking to educate and assist the researchers, manual curation is not suitable to manage the amount of data being generated, and there is a lack of standard approach across research labs.
 
-### What does FAIRshare Research do?
+### What does FAIRshare do?
 
 Through intuitive user interfaces and automation, this software provides a standardized tool for rapidly curating and sharing COVID-19 data according to applicable FAIR guidelines.
 
