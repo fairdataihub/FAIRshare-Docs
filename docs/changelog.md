@@ -12,19 +12,24 @@ All notable changes to FAIRshare will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 :::
 
-## Version 0.0.1
+## Version 1.1.0
 
 ### Feature additions
 
-- Text here
+- Added indicators to show when FAIRshare is updating to a new version.
 
 ### Bug fixes
 
-- Text here
+- On Linux the backend server was not being bundled correctly. This has been fixed to start on app launch.
+- Fixed an issue where the splash screen on macOS was rendering a shadow.
 
-### Known issues
+## Version 1.0.0
 
-- Text here
+### Feature additions
+
+- First stable release of FAIRshare.
+- Added the ability to upload your dataset to Zenodo with the appropriate metadta.
+- Added support for curating GitHub repositories to Zenodo.
 
 import PageFeedback from '@site/src/components/PageFeedback';
 
