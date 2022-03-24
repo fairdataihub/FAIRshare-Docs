@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-Some settings for the FAIRshare application can be managed here. This section will be constantly updated with new features and improvements that you will be able to control.
+Some settings for the FAIRshare application can be managed here. This section will be constantly updated with new features and improvements that you will be able to control so be sure to check back often.
 
 ![](./images/overview.png)
 

@@ -10,10 +10,10 @@ FAIRshare can be used to make your research software on GitHub FAIR. This is a g
 
 ## How to
 
-To connect FAIRshare with GitHub you can either provide a personal access token with the appropriate scopes or you can allow FAIRshare to connect with GitHub and create a token for you.
+To connect FAIRshare with GitHub you can either provide a [personal access token](#connect-with-token) with the appropriate scopes or you can allow [FAIRshare to connect with GitHub](#connect-with-username) and create a token for you.
 
 :::info
-We recommend using the `Connect with username` option since this will make sure that you have the correct scopes needed to make your repositories FAIR.
+We recommend using the [Connect with username](#connect-with-username) option since this will make sure that you have the correct scopes needed to make your repositories FAIR.
 :::
 
 ### Connect with username
