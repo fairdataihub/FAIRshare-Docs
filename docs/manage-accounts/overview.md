@@ -4,14 +4,12 @@ sidebar_position: 1
 
 # Overview
 
-This section is used to provide you a quick overview of all the connected integrations between FAIRshare and the different data sources and repositories.
+This section is used to provide you a quick overview of all the connected integrations between FAIRshare and the data repositories. All data sources and destinations that require you to provide either a username and password or a token are listed here. All your login information is only stored locally and is never sent to any external server. This means that no one can see your login information at any time. All your tokens are also encrypted to prevent unauthorized access.
 
-From here you will be able to manage your connections. To get more infomation about the different integrations, please refer to the appropriate section below.
+Currently FAIRshare is integrated with the following repositories. Click on the repository name below to learn how to manage your connections.
 
-Currently FAIRshare is integrated with the following repositories:
-
-- GitHub: [Click here to learn more](connect-to-github)
-- Zenodo: [Click here to learn more](connect-to-zenodo)
+- [Zenodo](connect-to-zenodo)
+- [GitHub](connect-to-github)
 
 ![](./images/overview.png)
 
