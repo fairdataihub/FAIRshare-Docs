@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # About FAIRshare
 
-FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their biomedical data and software according to applicable FAIR guidelines. The first phase of development of FAIRshare is focused on supporting COVID-19 and other infectious diseases data and software. Our ultimate goal is to support data and software from all fields of biomedical research. Learn more about FAIRshare, its impact, and related resources on our website at https://fairdataihub.org/fairshare.
+FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their biomedical data and software according to applicable FAIR guidelines. The first phase of development of FAIRshare is focused on supporting COVID-19 and other infectious diseases data and software. Our ultimate goal is to provide support for data and software from all fields of biomedical research. Learn more about FAIRshare, its impact, and related resources on our website at https://fairdataihub.org/fairshare.
 
 ### What are the FAIR Data Principles?
 
