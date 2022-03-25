@@ -24,8 +24,8 @@ const FeatureList = [
     width: 300,
     description: (
       <>
-        FAIRshare was designed from the ground up to be easily installed and used to get your data
-        made available to the world.
+        FAIRshare is design to be easy to install and use so that anyone can make their data FAIR
+        even without prior knowledge of FAIR guidelines in their field.
       </>
     ),
   },
@@ -43,8 +43,8 @@ const FeatureList = [
     width: 300,
     description: (
       <>
-        FAIRshare is built to be as simple as possible. We want to make it as easy as possible for
-        you to focus on what matters most.
+        FAIRshare includes automation to streamline the process of making your data FAIR such that
+        it requires minimal time and effort from you.
       </>
     ),
   },

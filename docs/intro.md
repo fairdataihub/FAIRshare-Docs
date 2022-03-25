@@ -2,17 +2,17 @@
 sidebar_position: 1
 ---
 
-# What is FAIRshare?
+# About FAIRshare
 
-FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines. Learn more about FAIRshare, its impact and its related resources on our website at https://fairdataihub.org/fairshare.
+FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their biomedical data and software according to applicable FAIR guidelines. The first phase of development of FAIRshare is focused on supporting COVID-19 and other infectious diseases data and software. Our ultimate goal is to support data and software from all fields of biomedical research. Learn more about FAIRshare, its impact, and related resources on our website at https://fairdataihub.org/fairshare.
 
-### What is COVID-19?
+### What are the FAIR Data Principles?
 
-Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. [Learn more about COVID-19](https://www.who.int/health-topics/coronavirus#tab=tab_1).
+The FAIR Data Principles are a set of guidelines for curating and sharing research data such that they are optimaly reusable by both humans and machines. [Learn more about FAIR](https://www.nature.com/articles/sdata201618).
 
 ### Why are FAIR data practices important?
 
-Given the urgency of the pandemic, it is crucial that researchers rapidly curate and share their data according to applicable FAIR guidelines to promote transparency and increase the pace of discoveries. [Learn more about COVID-19 data sharing](https://fairdataihub.org/niaid.nih.gov/research/share-covid-19-research-data).
+FAIR data practices are crucial for ensuring reproducibility of scientific findings, promoting reuse of data, and enabling AI/ML-driven analysis to ultimately increase the pace of new discoveries.
 
 ### What are the challenges?
 
@@ -20,7 +20,7 @@ Support is lacking to educate and assist the researchers, manual curation is not
 
 ### What does FAIRshare do?
 
-Through intuitive user interfaces and automation, this software provides a standardized tool for rapidly curating and sharing COVID-19 data according to applicable FAIR guidelines.
+FAIRshare is a desktop software that streamlines the process of making biomedical research data and software FAIR by combining intuitive user interface and automation.
 
 import PageFeedback from '@site/src/components/PageFeedback';
 

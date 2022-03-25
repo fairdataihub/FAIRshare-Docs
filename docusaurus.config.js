@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'FAIRshare',
-  tagline: 'Your one-stop tool for rapidly organizing and sharing COVID-19 research data',
+  tagline: 'Your one-stop tool for making biomedical research data and software FAIR',
   url: 'https://docs.fairshareapp.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
