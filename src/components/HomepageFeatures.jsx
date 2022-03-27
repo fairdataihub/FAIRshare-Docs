@@ -24,7 +24,7 @@ const FeatureList = [
     width: 300,
     description: (
       <>
-        FAIRshare is design to be easy to install and use so that anyone can make their data FAIR
+        FAIRshare is designed to be easy to install and use so that anyone can make their data FAIR
         even without prior knowledge of FAIR guidelines in their field.
       </>
     ),
