@@ -67,7 +67,7 @@ In this section you will be asked to provide the information about the contribut
 
 - **Name (s)** \*
   - This is the name(s) of the contributor of your research software. This should be in the format `Family name(s), given name(s)`.
-- **Affiliation**
+- **Affiliation** \*
   - This is the affiliation of the contributor of your research software.
 - ORCID
   - This is the ORCID of the contributor of your research software.
