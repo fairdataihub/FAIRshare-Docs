@@ -1,8 +1,7 @@
 ---
 sidebar_position: 12
+title: Add metadata for Zenodo
 ---
-
-# Add metadata for Zenodo
 
 ## Background
 
