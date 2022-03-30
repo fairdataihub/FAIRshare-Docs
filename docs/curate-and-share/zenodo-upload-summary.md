@@ -1,8 +1,7 @@
 ---
 sidebar_position: 13
+title: Upload summary for Zenodo
 ---
-
-# Upload summary for Zenodo
 
 ## Background
 

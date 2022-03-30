@@ -2,9 +2,8 @@
 sidebar_position: 8
 pagination_prev: null
 pagination_next: null
+title: Privacy Policy
 ---
-
-# Privacy Policy
 
 In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If you have any questions or concerns about this privacy notice or our practices with regards to your personal information, please contact us at [bPatel@fairdataihub.org](mailto:bpatel@fairdataihub.org) or https://fairdataihub.org/contact-us.
 

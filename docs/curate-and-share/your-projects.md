@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
+title: View all your projects
 ---
-
-# View all your projects
 
 ## Background
 

@@ -65,3 +65,24 @@ Include a CITATION.cff metadata file. Provide as much information as available. 
 - Release data (`date-released`)
 
 Specifications of the CITATION.cff metadata file can be found in the [associated manuscript](https://doi.org/10.5281/zenodo.5171937).
+
+## Step 4: Assign a suitable license to your software, preferably open source and permissible such as MIT or Apache 2.0
+
+Ensure the selected license is compatible with the requirements of the licenses of the software’s dependencies. It is highly recommended to choose a license approved by the Open Source Initiative (OSI). Amongst those licenses, it is encouraged to use the permissive MIT or Apache 2.0 licenses. The [Software Package Data Exchange (SPDX)](https://spdx.dev), [Choose a License](https://choosealicense.com), and the lesson on license from the [4 Simple recommendations for Open Source Software](https://softdev4research.github.io/4OSS-lesson/03-use-license/index.html) are suggested resources for help with selecting a suitable license.
+
+Please refer to the following resources for more information on this topic:
+
+- [An environment for sustainable research software in Germany and beyond: current state, open challenges, and call for action](https://doi.org/10.12688/f1000research.23224.2)
+- [Five recommendations for "FAIR software"](https://doi.org/10.5281/zenodo.4310217)
+
+## Step 5: Share on a suitable repository such as Zenodo
+
+We suggest using a language-specific repository, if applicable, such as CRAN for R packages and PyPI orConda for Python packages. Otherwise, we suggest using the general repository Zenodo. Figshare and Software Heritage are also suitable repositories.
+
+## Step 6: Register software to a domain-specific registry such as bio.tools for biomedical research software (optional)
+
+We suggest using bio.tools. The lesson on community registry from the [4 Simple recommendations for Open Source Software](https://softdev4research.github.io/4OSS-lesson/05-use-registry/index.html) provides helpful information for selecting a registry.
+
+## Step 7: Publish about the software in a software Journal such as the Journal of Open Research Software (optional)
+
+The [article](https://www.software.ac.uk/which-journals-should-i-publish-my-software) from the Software Sustainability Institute on selecting a Journal from publishing about software provides an overview of where to publish depending on the field of research.
