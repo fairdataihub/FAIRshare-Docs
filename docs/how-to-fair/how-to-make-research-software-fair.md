@@ -6,29 +6,29 @@ description: How to make research software FAIR
 
 ## Overview
 
-The Findable, Accessible, Interoperable, and Reusable (FAIR) guiding principles published in 2016 constitute the foundation for data management practices adopted by researchers, government agencies, private funders, and scholarly publishers to ensure the reusability of data by humans and machines. While postulated for all digital research objects, they fail to capture the specific traits of software such as dependencies and versioning. Consequently, reformulated FAIR guiding principles tailored for software have been proposed. Work from the Research Data Alliance (RDA) FAIR for Research Software (FAIR4RS) Working Group is the most extensive on the topic8. Just like the original FAIR guiding principles, the FAIR4RS guiding principles are aspirational and do not provide practical instructions and actionable items to the researchers. To fill this gap, we derived the first minimal and actionable step-by-step guidelines for biomedical researchers to make their research software compliant with the FAIR4RS principles. We designate these guidelines as the **FAIR Biomedical Research Software (FAIR-BioRS) guidelines**. Our process for developing these guidelines, based on a thorough review of current practices in the field, is available in our associated manuscript (to be published soon). The FAIR-BioRS guidelines are outlined below.
+The [Findable, Accessible, Interoperable, and Reusable (FAIR) guiding principles](https://doi.org/10.1038/sdata.2016.18) published in 2016 constitute the foundation for data management practices adopted by researchers, government agencies, private funders, and scholarly publishers to ensure optimal reusability of data by humans and machines. While postulated for all digital research objects, they fail to capture the specific traits of software such as dependencies and versioning. Consequently, reformulated FAIR guiding principles tailored for software have been proposed. Work from the [Research Data Alliance (RDA) FAIR for Research Software (FAIR4RS) Working Group](https://doi.org/10.15497/RDA00065) is the most extensive on the topic. Just like the original FAIR guiding principles, the FAIR4RS guiding principles are aspirational and do not provide practical instructions and actionable items to the researchers. To fill this gap, we derived the first minimal and actionable step-by-step guidelines for biomedical researchers to make their research software compliant with the FAIR4RS principles. We designate these guidelines as the **FAIR Biomedical Research Software (FAIR-BioRS) guidelines**. Our process for developing these guidelines, based on a thorough review of current practices in the field, is available in our associated manuscript (to be published soon). The FAIR-BioRS guidelines v1.0 are outlined below.
 
 ## Step 1: Follow standard/best development practices during the development of the software
 
-### 1.a: High-level scientific development standards
+### 1.a: Follow high-level scientific software development standards and best practices
 
-Follow high-level scientific software development standards and best practices such as the **Good enough practices in scientific computing**. Especially consider working from a version control system such as Git.
+Follow high-level scientific software development standards and best practices such as the **Good enough practices in scientific computing**. Especially consider working from a version control system such as GitHub.
 
 We suggest reading the paper on the [`Good enough practices in scientific computing`](https://doi.org/10.1371/journal.pcbi.1005510).
 
-### 1.b: Domain-specific standards
+### 1.b: Follow domain-specific standard and best practices for developing biomedical research software
 
 Follow domain-specific standards and best practices for developing biomedical research software such as the **General guidelines for biomedical software development**.
 
 We suggest reading the paper on the [`General guidelines for biomedical software development`](https://dx.doi.org/10.12688%2Ff1000research.10750.2).
 
-### 1.c: Language-specific standards
+### 1.c: Follow applicable language-specific standards and best practices
 
 Follow applicable language-specific standards and best practices such as the **Python Developer's Guide** or **Google's R Style Guide**.
 
 More details can be found, for instance, in the [`Python developer documentation`](https://www.python.org/dev/) and [`Google’s R guides`](https://google.github.io/styleguide/Rguide.html)
 
-### 1.d: Documentation standards
+### 1.d: Follow standards and best practices for documenting your software
 
 Follow standards and best practices for documenting your software such as **Ten simple rules for documenting scientific software**. Ensure that the following aspects are documented: inputs and outputs of the software, parameters and data required to run the software, the standards applied, and how to contribute to the software.
 
@@ -40,7 +40,7 @@ Source code files are highly suggested to be included.
 
 ## Step 3: Include standard metadata files such as codemeta.json and CITATION.cff
 
-### 3.a: Include codemeta.json
+### 3.a: Include a codemeta.json metadata file
 
 Include a codemeta.json metadata file. Provide as much information as available. At the minimum, we recommend specifying the following fields:
 
@@ -54,7 +54,7 @@ Include a codemeta.json metadata file. Provide as much information as available.
 
 The [CodeMeta generator](https://codemeta.github.io/codemeta-generator) is available to help prepare the codemeta.json metadata file.
 
-### 3.b: Include CITATION.cff
+### 3.b: Include a CITATION.cff metadata file
 
 Include a CITATION.cff metadata file. Provide as much information as available. At the minimum, we recommend specifying the following fields:
 
@@ -77,12 +77,12 @@ Please refer to the following resources for more information on this topic:
 
 ## Step 5: Share on a suitable repository such as Zenodo
 
-We suggest using a language-specific repository, if applicable, such as CRAN for R packages and PyPI orConda for Python packages. Otherwise, we suggest using the general repository Zenodo. Figshare and Software Heritage are also suitable repositories.
+We suggest using a language-specific repository, if applicable, such as [CRAN](https://cran.r-project.org/) for R packages and [PyPI](https://pypi.org/) or [Conda](https://docs.conda.io/en/latest/) for Python packages. Otherwise, we suggest using the general repository [Zenodo](https://zenodo.org/). [Figshare](https://figshare.com/) and [Software Heritage](https://www.softwareheritage.org/) are also suitable repositories.
 
 ## Step 6: Register software to a domain-specific registry such as bio.tools for biomedical research software (optional)
 
-We suggest using bio.tools. The lesson on community registry from the [4 Simple recommendations for Open Source Software](https://softdev4research.github.io/4OSS-lesson/05-use-registry/index.html) provides helpful information for selecting a registry.
+We suggest using [bio.tools](https://bio.tools/). The lesson on community registry from the [4 Simple recommendations for Open Source Software](https://softdev4research.github.io/4OSS-lesson/05-use-registry/index.html) provides helpful information for selecting a registry.
 
-## Step 7: Publish about the software in a software Journal such as the Journal of Open Research Software (optional)
+## Step 7: Publish about the software in a suitable Journal such as the Journal of Open Research Software (optional)
 
-The [article](https://www.software.ac.uk/which-journals-should-i-publish-my-software) from the Software Sustainability Institute on selecting a Journal from publishing about software provides an overview of where to publish depending on the field of research.
+The [article](https://www.software.ac.uk/which-journals-should-i-publish-my-software) from the Software Sustainability Institute on selecting a Journal for publishing about software provides an overview of where to publish depending on the field of research.
