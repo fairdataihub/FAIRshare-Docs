@@ -1,8 +1,7 @@
 ---
 sidebar_position: 2
+title: Running the application
 ---
-
-# Running the application
 
 FAIRshare has been developed as an Electron application running a Vue 3 based front end.
 

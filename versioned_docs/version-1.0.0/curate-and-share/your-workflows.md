@@ -1,8 +1,7 @@
 ---
 sidebar_position: 4
+title: Start a project workflow
 ---
-
-# Start a project workflow
 
 ## Background
 

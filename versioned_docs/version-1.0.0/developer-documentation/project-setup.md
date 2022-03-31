@@ -1,9 +1,8 @@
 ---
 sidebar_position: 1
 pagination_prev: null
+title: Project Setup
 ---
-
-# Project Setup
 
 ## Setting up your environment
 

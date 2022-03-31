@@ -1,8 +1,7 @@
 ---
 sidebar_position: 4
+title: Flask documentation
 ---
-
-# Flask documentation
 
 For the python portion of this application, Flask-RESTX is used to generate the API specific portion. To learn more about Flask-RESTX, click [here](https://flask-restx.readthedocs.io/en/latest/).
 

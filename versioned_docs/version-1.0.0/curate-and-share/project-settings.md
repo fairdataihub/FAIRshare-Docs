@@ -1,8 +1,7 @@
 ---
 sidebar_position: 3
+title: Project settings
 ---
-
-# Project settings
 
 ## Background
 

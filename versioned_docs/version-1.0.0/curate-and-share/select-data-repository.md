@@ -1,8 +1,7 @@
 ---
 sidebar_position: 11
+title: Select a destination repository
 ---
-
-# Select a destination repository
 
 ## Background
 

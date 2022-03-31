@@ -1,8 +1,7 @@
 ---
 sidebar_position: 2
+title: Create a new project
 ---
-
-# Create a new project
 
 ## Background
 

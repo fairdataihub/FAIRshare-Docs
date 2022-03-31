@@ -1,8 +1,7 @@
 ---
 sidebar_position: 5
+title: Choose your files source
 ---
-
-# Choose your files source
 
 ## Background
 
