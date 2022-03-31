@@ -11,6 +11,10 @@ Within this page you will be able to select a GitHub repository that you would l
 Currently data repositories only support public repositories. You will be shown a list of all the repositories but you will only be able to select repositories that are public on GitHub.
 :::
 
+:::note
+You might need to connect FAIRshare to GitHub to see the list of repositories.
+:::
+
 ## How to
 
 - Wait for all your repositories to load.
