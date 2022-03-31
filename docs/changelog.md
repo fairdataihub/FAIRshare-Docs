@@ -22,6 +22,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Bug fixes
 
 - Fixed an issue where app log files were not being created in the correct location.
+- Fixed an issue where incorrect file keys were being read from the `codemeta.json` file.
+- Fixed some issues where certain GitHub repositories were not returning a license correctly. This was causing FAIRshare to assume an invalid license existed on the repository.
+- Fixed an issue where an publishing a new version of a Zenodo deposition where no orcids for authors were provided could cause the app to freeze.
 
 ## Version 1.1.0
 

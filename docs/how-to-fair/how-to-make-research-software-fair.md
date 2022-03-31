@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: How to make research software FAIR
 description: How to make research software FAIR
+pagination_prev: null
 ---
 
 ## Overview
