@@ -1,9 +1,8 @@
 ---
 sidebar_position: 5
 pagination_next: null
+title: Environment variables
 ---
-
-# Environment variables
 
 Within the developer environment, we use a few environment variable to ensure that any test datasets created aren't going to be made permenant. At the current stage of the application a few data repositories provide a test environment for developers to test on. You will have to use a `.env` file to add these environment variables directly into the application.
 

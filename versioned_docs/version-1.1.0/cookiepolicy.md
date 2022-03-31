@@ -2,9 +2,8 @@
 sidebar_position: 10
 pagination_prev: null
 pagination_next: null
+title: Cookie Policy
 ---
-
-# Cookie Policy
 
 ## What Are Cookies?
 

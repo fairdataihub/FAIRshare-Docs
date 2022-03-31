@@ -1,8 +1,7 @@
 ---
 sidebar_position: 10
+title: Select a license
 ---
-
-# Select a license
 
 ## Background
 

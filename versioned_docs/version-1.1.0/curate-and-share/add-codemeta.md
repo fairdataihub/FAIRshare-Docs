@@ -1,8 +1,7 @@
 ---
 sidebar_position: 9
+title: Add your code metadata
 ---
-
-# Add your code metadata
 
 ## Background
 
