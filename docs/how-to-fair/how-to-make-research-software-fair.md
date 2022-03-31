@@ -16,7 +16,7 @@ Follow high-level scientific software development standards and best practices s
 
 We suggest reading the paper on the [`Good enough practices in scientific computing`](https://doi.org/10.1371/journal.pcbi.1005510).
 
-### 1.b: Follow domain-specific standard and best practices for developing biomedical research software
+### 1.b: Follow domain-specific standards and best practices for developing biomedical research software
 
 Follow domain-specific standards and best practices for developing biomedical research software such as the **General guidelines for biomedical software development**.
 
@@ -30,7 +30,7 @@ More details can be found, for instance, in the [`Python developer documentation
 
 ### 1.d: Follow standards and best practices for documenting your software
 
-Follow standards and best practices for documenting your software such as **Ten simple rules for documenting scientific software**. Ensure that the following aspects are documented: inputs and outputs of the software, parameters and data required to run the software, the standards applied, and how to contribute to the software.
+Follow standards and best practices for documenting your software such as **Ten simple rules for documenting scientific software**. Ensure that the following aspects are documented: inputs and outputs of the software, parameters, and data required to run the software, the standards applied, and how to contribute to the software.
 
 We suggest reading the paper on the [`Ten simple rules for documenting scientific software`](https://doi.org/10.1371/journal.pcbi.1006561).
 
