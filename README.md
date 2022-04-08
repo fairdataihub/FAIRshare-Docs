@@ -1,3 +1,18 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6407284.svg)](https://doi.org/10.5281/zenodo.6407284)
+
+[contributors-shield]: https://img.shields.io/github/contributors/fairdataihub/FAIRshare-Docs.svg?style=flat-square
+[contributors-url]: https://github.com/fairdataihub/FAIRshare-Docs/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/fairdataihub/FAIRshare-Docs.svg?style=flat-square
+[stars-url]: https://github.com/fairdataihub/FAIRshare-Docs/stargazers
+[issues-shield]: https://img.shields.io/github/issues/fairdataihub/FAIRshare-Docs.svg?style=flat-square
+[issues-url]: https://github.com/fairdataihub/FAIRshare-Docs/issues
+[license-shield]: https://img.shields.io/github/license/fairdataihub/FAIRshare-Docs.svg?style=flat-square
+[license-url]: https://github.com/fairdataihub/FAIRshare-Docs/blob/main/LICENSE
+
 # FAIRshare Documentation
 
 All documentation for the FAIRshare application will be hosted in this repository. Versioning has been setup for previously released versions of the application.
