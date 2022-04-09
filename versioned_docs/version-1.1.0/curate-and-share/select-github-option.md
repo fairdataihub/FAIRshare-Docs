@@ -1,8 +1,7 @@
 ---
 sidebar_position: 6
+title: Use a GitHub source
 ---
-
-# Use a GitHub source
 
 ## Background
 

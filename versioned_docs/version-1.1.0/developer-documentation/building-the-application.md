@@ -1,8 +1,7 @@
 ---
 sidebar_position: 3
+title: Building the application
 ---
-
-# Building the application
 
 To build the complete application, you will need to build the python executable and the Electron portion separately.
 

@@ -1,8 +1,7 @@
 ---
 sidebar_position: 8
+title: Verify best practices
 ---
-
-# Verify best practices
 
 ## Background
 

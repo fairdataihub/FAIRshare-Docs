@@ -2,9 +2,8 @@
 sidebar_position: 9
 pagination_prev: null
 pagination_next: null
+title: Terms of Use
 ---
-
-# Terms of Use
 
 ### Version 1.0
 

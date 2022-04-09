@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
+title: Overview
 ---
-
-# Overview
 
 This section is used to provide you a quick overview of all the connected integrations between FAIRshare and the different data sources and repositories.
 

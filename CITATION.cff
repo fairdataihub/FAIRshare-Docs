@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with FAIRshare.
+# Visit https://fairdataihub.org/fairshare to learn more!
+
+abstract: Documentation for the FAIRshare application
+authors:
+- affiliation: FAIR Data Innovations Hub
+  email: ssoundarajan@calmi2.org
+  family-names: Soundarajan
+  given-names: Sanjay
+- affiliation: California Medical Innovations Institute
+  email: bpatel@calmi2.org
+  family-names: Patel
+  given-names: Bhavesh
+  orcid: 0000-0002-0307-262X
+cff-version: 1.2.0
+date-released: '2022-04-01T21:51:01.821Z'
+keywords:
+- FAIR
+- data
+- curation
+- documentation
+- electron
+- macos
+- ubuntu
+- windows
+license: MIT
+message: If you use this software, please cite it as below.
+repository-artifact: https://github.com/fairdataihub/FAIRshare-Docs
+repository-code: https://github.com/fairdataihub/FAIRshare-Docs
+title: FAIRshare docs
+type: software
+url: https://fairdataihub.org/
+version: 1.2.0

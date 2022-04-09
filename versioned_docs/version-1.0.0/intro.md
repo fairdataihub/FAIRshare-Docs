@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
+title: What is FAIRshare?
 ---
-
-# What is FAIRshare?
 
 FAIRshare is a cross-platform desktop software that allows researchers to easily organize and share their COVID-19 related genomics, immunology, and other general research data according to applicable FAIR guidelines. Learn more about FAIRshare, its impact and its related resources on our website at https://fairdataihub.org/fairshare.
 

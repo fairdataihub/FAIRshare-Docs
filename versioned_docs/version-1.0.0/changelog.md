@@ -2,9 +2,8 @@
 sidebar_position: 7
 pagination_prev: null
 pagination_next: null
+title: Changelog
 ---
-
-# Changelog
 
 All notable changes to FAIRshare will be documented in this file.
 

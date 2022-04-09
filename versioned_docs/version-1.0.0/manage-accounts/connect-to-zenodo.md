@@ -1,8 +1,7 @@
 ---
 sidebar_position: 2
+title: Connect to Zenodo
 ---
-
-# Connect to Zenodo
 
 Add explanation text here
 

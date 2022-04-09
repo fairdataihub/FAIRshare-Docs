@@ -1,8 +1,7 @@
 ---
 sidebar_position: 7
+title: Select a GitHub repository
 ---
-
-# Select a GitHub repository
 
 ## Background
 
