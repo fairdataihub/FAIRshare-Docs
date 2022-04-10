@@ -155,12 +155,12 @@ const config = {
           content: 'Fair Data Innovations Hub',
         },
       ],
-      // algolia: {
-      //   appId: "5C68KRW2LG",
-      //   apiKey: "f54157cf9bcb7564a29aa0995e0eb192",
-      //   indexName: "docs-fairshare",
-      //   contextualSearch: true,
-      // },
+      algolia: {
+        appId: 'GD7SXR5V16',
+        apiKey: 'a3dc9a3cc59523cd37850a7480ab26b7',
+        indexName: 'fairshareapp',
+        contextualSearch: true,
+      },
     }),
   scripts: [
     {
