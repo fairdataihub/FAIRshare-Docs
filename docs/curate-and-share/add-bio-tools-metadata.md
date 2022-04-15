@@ -61,7 +61,7 @@ In this section you will be asked to provide the basic information about your da
 
   :::
 
-![](./images/bioToolsMetadataStep1.png)
+![](./images/biotoolsMetadataStep1.png)
 
 After filling all the relevant data in the above sections, you can click on the `Register on bio.tools` button to move on to the register your application on the platform.
 
