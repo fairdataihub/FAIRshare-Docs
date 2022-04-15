@@ -106,7 +106,7 @@ function AskFeedback({ setShowSuccess }) {
 
 function ShowSuccessMessage() {
   const animationOptions = {
-    loop: true,
+    loop: 1,
     autoplay: true,
     animationData: SuccessAnimationData,
     rendererSettings: {
