@@ -1,1 +1,26 @@
-{"upload_type": "software", "title": "FAIRshare docs", "publication_date": "2022-04-15", "creators": [{"name": "Soundarajan, Sanjay", "affiliation": "FAIR Data Innovations Hub"}, {"name": "Patel, Bhavesh", "affiliation": "California Medical Innovations Institute", "orcid": "0000-0002-0307-262X"}], "description": "Documentation for the FAIRshare application", "access_right": "open", "license": "MIT", "keywords": ["FAIR", "data", "curation", "documentation", "electron", "macos", "ubuntu", "windows"]}
+{
+  "upload_type": "software",
+  "title": "FAIRshare docs",
+  "publication_date": "2022-04-15",
+  "creators": [
+    { "name": "Soundarajan, Sanjay", "affiliation": "FAIR Data Innovations Hub" },
+    {
+      "name": "Patel, Bhavesh",
+      "affiliation": "California Medical Innovations Institute",
+      "orcid": "0000-0002-0307-262X"
+    }
+  ],
+  "description": "Documentation for the FAIRshare application",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "FAIR",
+    "data",
+    "curation",
+    "documentation",
+    "electron",
+    "macos",
+    "ubuntu",
+    "windows"
+  ]
+}
