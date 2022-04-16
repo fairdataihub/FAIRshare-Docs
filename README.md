@@ -23,8 +23,8 @@
   <a href="https://github.com/fairdataihub/FAIRshare-Docs/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/fairdataihub/FAIRshare-Docs.svg?style=flat-square" alt="license" />
   </a>
-  <a href="https://doi.org/10.5281/zenodo.6407284">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407284.svg" alt="doi" />
+  <a href="https://doi.org/10.5281/zenodo.6407283">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407283.svg" alt="doi" />
   </a>
   <a href="https://fairdataihub.org/fairshare">
     <img src="https://img.shields.io/badge/Curated%20with-FAIRshare-yellow" alt="Curated with FAIRshare" />
