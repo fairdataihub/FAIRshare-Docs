@@ -12,5 +12,5 @@ jobs:
       - uses: actions/first-interaction@v1
         with:
           repo-token: ${{ secrets.BOT_ACTIONS }}
-          issue-message: 'Hey **#** welcome to this repo. Thank you for submitting an issue. A maintainer will submit a response to your inquiry soon. '
+          issue-message: 'Hey! Welcome to the FAIRshare documentation. Thank you for submitting an issue. A maintainer will submit a response to your inquiry soon. We appreciate your patience!'
           pr-message: 'Thank you for taking your time and effort for your contribution, we truly value it. :tada: A maintainer will soon be on this PR to provide some comments or merge your changes.'
