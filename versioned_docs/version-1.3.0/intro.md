@@ -24,3 +24,4 @@ FAIRshare is a desktop software that streamlines the process of making biomedica
 import PageFeedback from '@site/src/components/PageFeedback';
 
 <PageFeedback />
+[![Static Content CI](https://github.com/WorldHealthOrganization/app/actions/workflows/static-content.yaml/badge.svg)](https://github.com/WorldHealthOrganization/app/actions/workflows/static-content.yaml)oo
