@@ -15,6 +15,15 @@ To connect FAIRshare with GitHub you can either provide a [personal access token
 We recommend using the [Connect with username](#connect-with-username) option since this will make sure that you have the correct scopes needed to make your repositories FAIR.
 :::
 
+#### Scopes
+
+Regardless of which option you choose, the following scopes will be requested from your GitHub account. An explanation of each scope is provided below.
+
+- `repo` - Grants full access to repositories, including private repositories. That includes read/write access to code, commit statuses, repository and organization projects. FAIRshare will need to be able to read and write to your repositories.
+- `user` - Grants read/write access to profile info only. FAIRshare will need to be able to read your information from your profile to fill in your information for the relevant metadata files.
+- `admin:org_hook` - Grants read and write access to organization hooks. Note: OAuth tokens ([connecting with username](#connect-with-username)) will only be able to perform these actions on organization hooks which were created by the OAuth App. [Personal access tokens](#connect-with-token) will only be able to perform these actions on organization hooks created by a user.
+- `admin:repo_hook` - Grants read and write access to repository hooks in public or private repositories. This scope is only requested by FAIRshare to create hooks on repositories for Zenodo or other data repository integration.
+
 ### Connect with username
 
 1. Click on the `Connect to GitHub` at the bottom right position of the card.
