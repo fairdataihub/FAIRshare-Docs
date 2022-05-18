@@ -11,9 +11,8 @@ authors:
   email: bpatel@calmi2.org
   family-names: Patel
   given-names: Bhavesh
-  orcid: 0000-0002-0307-262X
 cff-version: 1.2.0
-date-released: '2022-04-15'
+date-released: '2022-05-18'
 identifiers:
 - description: DOI for this software's record on Zenodo
   type: doi
@@ -34,4 +33,4 @@ repository-code: https://github.com/fairdataihub/FAIRshare-Docs
 title: FAIRshare docs
 type: software
 url: https://fairdataihub.org/
-version: 1.3.0
+version: 2.0.0
