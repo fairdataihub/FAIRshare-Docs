@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* You can override the default Infima variables here. */
 /* Pick the relevant colors here: https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
 :root {
