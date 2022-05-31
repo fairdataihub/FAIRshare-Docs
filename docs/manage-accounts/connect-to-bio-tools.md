@@ -13,7 +13,7 @@ To increase the FAIRness of your software, we recommend to register it on the [b
    ![](./images/biotools-step1.png)
 2. Enter your `username` and `password` to bio.tools.
    ![](./images/biotools-step2.png)
-3. Click on the `OK` button to continue. If your credentials are valid FAIRshare will automatically generate the required token and show you a successfully connected notification.
+3. Click on the `Login` button to continue. If your credentials are valid FAIRshare will automatically generate the required token and show you a successfully connected notification.
 
 import PageFeedback from '@site/src/components/PageFeedback';
 
