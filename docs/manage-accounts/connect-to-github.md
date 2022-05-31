@@ -52,7 +52,7 @@ You will need the following scopes on your personal access token: `admin:org_hoo
 
 1. Click on the `Connect to GitHub` at the bottom right position of the card.
    ![](./images/github-step1.png)
-2. Click on the `Connect with username` button in the popup.
+2. Click on the `Connect with token` button in the popup.
    ![](./images/github-token-step2.png)
 3. In the following prompt enter your GitHub personal access token.
    ![](./images/github-token-step3.png)
