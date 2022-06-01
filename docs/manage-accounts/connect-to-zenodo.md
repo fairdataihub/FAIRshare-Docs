@@ -21,7 +21,7 @@ FAIRshare will need to connect to Zenodo to both upload your data as well as rea
      - Provide a name to the token so that you can identify it later.
      - Provide the scopes of `deposit:actions` and `deposit:write`. These are the only scopes that are required and this is **mandatory**.
 
-     ![](./images/zenodo-step5.png)
+     ![](./images/zenodo-step3.png)
 
    - After you have generated your account you can provide the token in the prompt within FAIRshare.
      ![](./images/zenodo-step4.png)

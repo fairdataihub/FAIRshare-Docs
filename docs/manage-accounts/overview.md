@@ -10,6 +10,7 @@ Currently FAIRshare is integrated with the following repositories. Click on the 
 - [Zenodo](connect-to-zenodo)
 - [GitHub](connect-to-github)
 - [bio.tools](connect-to-bio-tools)
+- [Figshare](connect-to-figshare)
 
 ![](./images/overview.png)
 
