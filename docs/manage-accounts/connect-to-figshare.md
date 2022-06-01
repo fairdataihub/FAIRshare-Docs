@@ -24,7 +24,7 @@ FAIRshare will need to connect to Figshare to both upload your data as well as r
 
        ![](./images/figshare-step3.png)
 
-   - After you have generated your account you can provide the token in the prompt within FAIRshare.
+   - After you have generated your token you can provide the token in the prompt within FAIRshare.
      ![](./images/figshare-step4.png)
 
    - Click on the `Login` button to continue. If your token is valid FAIRshare will show you a successfully connected notification.
