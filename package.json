@@ -41,8 +41,8 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.18.2",
-    "@commitlint/cli": "17.0.1",
-    "@commitlint/config-conventional": "17.0.0",
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2",
     "autoprefixer": "10.4.7",
     "babel-eslint": "10.1.0",
     "devmoji": "2.3.0",
