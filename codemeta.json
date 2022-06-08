@@ -9,14 +9,17 @@
   "downloadUrl": "https://github.com/fairdataihub/FAIRshare-Docs",
   "issueTracker": "https://github.com/fairdataihub/FAIRshare-Docs/issues",
   "name": "FAIRshare docs",
-  "version": "3.0.0",
-  "identifier": " https://doi.org/10.5281/zenodo.6407284",
+  "version": "3.1.0",
+  "identifier": "https://doi.org/10.5281/zenodo.6625202",
   "description": "Documentation for the FAIRshare application",
   "applicationCategory": "Scientific",
   "funding": "U01AI150741",
   "developmentStatus": "active",
   "isPartOf": "https://fairdataihub.org/",
-  "funder": { "@type": "Organization", "@name": "National Institutes of Health (NIH)" },
+  "funder": {
+    "@type": "Organization",
+    "@name": "National Institutes of Health (NIH)"
+  },
   "keywords": [
     "FAIR",
     "data",
@@ -27,7 +30,10 @@
     "ubuntu",
     "windows"
   ],
-  "programmingLanguage": ["JavaScript", "React"],
+  "programmingLanguage": [
+    "JavaScript",
+    "React"
+  ],
   "relatedLink": [
     "https://docs.fairshareapp.io/",
     "https://github.com/fairdataihub/FAIRshare",
@@ -39,14 +45,20 @@
       "givenName": "Sanjay",
       "familyName": "Soundarajan",
       "email": "ssoundarajan@calmi2.org",
-      "affiliation": { "@type": "Organization", "name": "FAIR Data Innovations Hub" }
+      "affiliation": {
+        "@type": "Organization",
+        "name": "FAIR Data Innovations Hub"
+      }
     },
     {
       "@type": "Person",
       "givenName": "Bhavesh",
       "familyName": "Patel",
       "email": "bpatel@calmi2.org",
-      "affiliation": { "@type": "Organization", "name": "California Medical Innovations Institute" }
+      "affiliation": {
+        "@type": "Organization",
+        "name": "California Medical Innovations Institute"
+      }
     }
   ]
 }
