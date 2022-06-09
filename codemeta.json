@@ -9,8 +9,8 @@
   "downloadUrl": "https://github.com/fairdataihub/FAIRshare-Docs",
   "issueTracker": "https://github.com/fairdataihub/FAIRshare-Docs/issues",
   "name": "FAIRshare docs",
-  "version": "3.1.0",
-  "identifier": "https://doi.org/10.5281/zenodo.6625202",
+  "version": "3.2.0",
+  "identifier": "https://doi.org/10.5281/zenodo.6629619",
   "description": "Documentation for the FAIRshare application",
   "applicationCategory": "Scientific",
   "funding": "U01AI150741",
@@ -30,7 +30,10 @@
     "ubuntu",
     "windows"
   ],
-  "programmingLanguage": ["JavaScript", "React"],
+  "programmingLanguage": [
+    "JavaScript",
+    "React"
+  ],
   "relatedLink": [
     "https://docs.fairshareapp.io/",
     "https://github.com/fairdataihub/FAIRshare",
