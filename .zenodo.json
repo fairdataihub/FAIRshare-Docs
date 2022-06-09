@@ -3,8 +3,14 @@
   "title": "FAIRshare docs",
   "publication_date": "2022-06-03",
   "creators": [
-    { "name": "Soundarajan, Sanjay", "affiliation": "FAIR Data Innovations Hub" },
-    { "name": "Patel, Bhavesh", "affiliation": "California Medical Innovations Institute" }
+    {
+      "name": "Soundarajan, Sanjay",
+      "affiliation": "FAIR Data Innovations Hub"
+    },
+    {
+      "name": "Patel, Bhavesh",
+      "affiliation": "California Medical Innovations Institute"
+    }
   ],
   "description": "Documentation for the FAIRshare application",
   "access_right": "open",
@@ -19,5 +25,5 @@
     "ubuntu",
     "windows"
   ],
-  "version": "3.0.0"
+  "version": "3.1.0"
 }
