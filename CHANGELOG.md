@@ -1,9 +1,8 @@
 ## [3.2.5](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.4...v3.2.5) (2022-06-18)
 
-
 ### Bug Fixes
 
-* **deps:** update react monorepo to v18.2.0 ([#66](https://github.com/fairdataihub/FAIRshare-Docs/issues/66)) ([e0aa4c4](https://github.com/fairdataihub/FAIRshare-Docs/commit/e0aa4c417d43aaad97fad45abb83ef163f97a1bc))
+- **deps:** update react monorepo to v18.2.0 ([#66](https://github.com/fairdataihub/FAIRshare-Docs/issues/66)) ([e0aa4c4](https://github.com/fairdataihub/FAIRshare-Docs/commit/e0aa4c417d43aaad97fad45abb83ef163f97a1bc))
 
 ## [3.2.4](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.3...v3.2.4) (2022-06-18)
 
