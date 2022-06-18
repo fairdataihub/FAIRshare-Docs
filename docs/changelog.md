@@ -11,6 +11,20 @@ All notable changes to FAIRshare are documented here.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 :::
 
+## Version 1.4.0
+
+### Feature additions
+
+- You can now submit your datasets to Figshare using FAIRshare. This is currently only enabled for local and new datasets. Support for GitHub repos and for publishing new versions of datasets to Figshare is coming soon.
+- Added support for the ability to select `Upload type` for Zenodo.
+- Storybook integration has been added for components used within FAIRshare. View the [library](https://www.chromatic.com/library?appId=628e928cd2515a004ad2f0b7) and the [storybook](https://628e928cd2515a004ad2f0b7-jmdpzjjikc.chromatic.com/).
+
+### Bug fixes
+
+- FAIRshare will now focus on the currently open app instance if a user opens multiple instances of FAIRshare. This should prevent issues that can arise from the server side.
+- The `Curated with FAIRshare` badge has a new url that we can support better.
+- Updated Zenodo metadata text to better fit the context of the form.
+
 ## Version 1.3.1
 
 ### Bug fixes
