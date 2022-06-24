@@ -13,7 +13,7 @@ date-released: '2022-06-03'
 identifiers:
   - description: DOI for this software's record on Zenodo
     type: doi
-    value: https://doi.org/10.5281/zenodo.6658551
+    value: https://doi.org/10.5281/zenodo.6728251
 keywords:
   - FAIR
   - data
@@ -30,4 +30,4 @@ repository-code: https://github.com/fairdataihub/FAIRshare-Docs
 title: FAIRshare docs
 type: software
 url: https://fairdataihub.org/
-version: 3.2.5
+version: 3.2.6
