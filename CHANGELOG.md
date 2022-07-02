@@ -1,9 +1,8 @@
 ## [3.2.8](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.7...v3.2.8) (2022-07-02)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency prism-react-renderer to v1.3.5 ([#78](https://github.com/fairdataihub/FAIRshare-Docs/issues/78)) ([48dfd3c](https://github.com/fairdataihub/FAIRshare-Docs/commit/48dfd3caf53e12e721b3f5d7cbd3b479989ad7c4))
+- **deps:** update dependency prism-react-renderer to v1.3.5 ([#78](https://github.com/fairdataihub/FAIRshare-Docs/issues/78)) ([48dfd3c](https://github.com/fairdataihub/FAIRshare-Docs/commit/48dfd3caf53e12e721b3f5d7cbd3b479989ad7c4))
 
 ## [3.2.7](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.6...v3.2.7) (2022-06-27)
 
