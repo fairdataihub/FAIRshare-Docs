@@ -1,9 +1,8 @@
 ## [3.2.9](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.8...v3.2.9) (2022-07-07)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency clsx to v1.2.1 ([#80](https://github.com/fairdataihub/FAIRshare-Docs/issues/80)) ([209ff80](https://github.com/fairdataihub/FAIRshare-Docs/commit/209ff8050b9626f756d760dd4505a80534127de1))
+- **deps:** update dependency clsx to v1.2.1 ([#80](https://github.com/fairdataihub/FAIRshare-Docs/issues/80)) ([209ff80](https://github.com/fairdataihub/FAIRshare-Docs/commit/209ff8050b9626f756d760dd4505a80534127de1))
 
 ## [3.2.8](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.7...v3.2.8) (2022-07-02)
 
