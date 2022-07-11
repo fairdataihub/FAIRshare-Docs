@@ -1,3 +1,10 @@
+## [3.2.11](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.10...v3.2.11) (2022-07-11)
+
+
+### Bug Fixes
+
+* **deps:** update docusaurus monorepo to v2.0.0-beta.22 ([#85](https://github.com/fairdataihub/FAIRshare-Docs/issues/85)) ([9b20866](https://github.com/fairdataihub/FAIRshare-Docs/commit/9b20866a7c78a5cce3342724b6e5496a13d257a3))
+
 ## [3.2.10](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.9...v3.2.10) (2022-07-08)
 
 ### Bug Fixes
