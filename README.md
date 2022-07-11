@@ -29,6 +29,12 @@
   <a href="https://fairdataihub.org/fairshare">
     <img src="https://img.shields.io/badge/Curated%20with-FAIRshare-yellow" alt="Curated with FAIRshare" />
   </a>
+  <a href="https://docs.fairshareapp.io/">
+    <img src="https://api.checklyhq.com/v1/badges/checks/2c8f5695-1596-4ad6-b1ae-a30c42ccec9b?style=flat&theme=default" alt="checkly status" />
+  </a>
+  <a href="https://docs.fairshareapp.io/">
+    <img src="https://api.checklyhq.com/v1/badges/checks/2c8f5695-1596-4ad6-b1ae-a30c42ccec9b?style=flat&theme=default&responseTime=true" alt="checkly response time" />
+  </a>
 </p>
    
 <h4>
