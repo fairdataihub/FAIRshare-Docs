@@ -3,40 +3,13 @@ sidebar_position: 1
 title: Download FAIRshare
 ---
 
-import { Link } from '@mui/material';
-
-export const DownloadURL = ({ children, os }) => (
-  <a
-    href={`#${os}`}
-    rel="noopener"
-    onClick={async () => {
-      const res = await fetch('https://api.github.com/repos/fairdataihub/FAIRshare/releases');
-      const data = await res.json();
-      const release = data[0];
-      return release.assets.forEach((asset) => {
-        let file_name = asset.name;
-        let file_ext = file_name.split('.').pop();
-        if (file_ext === 'dmg' && os === 'macos') {
-          window.open(asset.browser_download_url, '_blank');
-        }
-        if (file_ext === 'exe' && os === 'windows') {
-          window.open(asset.browser_download_url, '_blank');
-        }
-        if (file_ext === 'AppImage' && os === 'linux') {
-          window.open(asset.browser_download_url, '_blank');
-        }
-      });
-    }}
-  >
-    {children}
-  </a>
-);
+import DownloadURL from '@site/src/components/downloadURL';
 
 ### Windows
 
 This application has been developed and tested on both Windows 10 and Windows 11.
 
-1. <DownloadURL os="windows">Download the Windows installer</DownloadURL>
+1. <DownloadURL os="windows"> Download the Windows installer </DownloadURL>
 2. Double click on the installer (.exe file), it will start the installation process (if there is a permission issue try to right-click and select `Run as administrator`).
 3. Follow the installation instructions.
 4. Once the application is installed, you can run the application by either running the desktop shortcut, searching for `FAIRshare` on the start menu, or from the installation folder.
@@ -52,7 +25,7 @@ When uninstalling FAIRshare for COVID-19 Research on Windows, some additional fi
 
 This application has been developed on macOS Catalina 10.15 and has been tested on both macOS Catalina and Big Sur.
 
-1. <DownloadURL os="macos">Download the macOS installer</DownloadURL>
+1. <DownloadURL os="macos"> Download the macOS installer </DownloadURL>
 2. Double-click on the installer (.dmg file) and, in the installation window, drag the FAIRshare icon into the `Applications` folder. Security preferences may need to be changed (`System Preferences` > `Security & Privacy` > `General` tab > `Open anyway`).
 3. To stop the application, click on the red circle/button in the top left corner.
 
@@ -66,7 +39,7 @@ This application has been developed and tested on Ubuntu 20.04.2 LTS.
 FAIRshare may work on other Debian based distributions but we have not tested compatibility at this time.
 :::
 
-1. <DownloadURL os="linux">Download the Linux AppImage</DownloadURL>
+1. <DownloadURL os="linux"> Download the Linux AppImage </DownloadURL>
 2. Right-click on the downloaded file and go to the permissions tab.
 3. Click `Allow executing file as program` and make sure it is enabled.
 4. Double click the downloaded FAIRshare app icon and it should open the app.
