@@ -1,3 +1,10 @@
+## [3.2.13](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.12...v3.2.13) (2022-07-16)
+
+
+### Bug Fixes
+
+* update download link fairdataihub/FAIRshare[#244](https://github.com/fairdataihub/FAIRshare-Docs/issues/244) ([05a4ca0](https://github.com/fairdataihub/FAIRshare-Docs/commit/05a4ca02de7934833ce4c1f432abac94013c7c67))
+
 ## [3.2.12](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.11...v3.2.12) (2022-07-15)
 
 ### Bug Fixes
