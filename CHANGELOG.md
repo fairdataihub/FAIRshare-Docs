@@ -1,9 +1,8 @@
 # [3.3.0](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.20...v3.3.0) (2022-08-03)
 
-
 ### Features
 
-* ✨ switch from google analytics to umami ([8bf4717](https://github.com/fairdataihub/FAIRshare-Docs/commit/8bf47174940f7f1f0c4066333a920cc7ea48cf7f))
+- ✨ switch from google analytics to umami ([8bf4717](https://github.com/fairdataihub/FAIRshare-Docs/commit/8bf47174940f7f1f0c4066333a920cc7ea48cf7f))
 
 ## [3.2.20](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.19...v3.2.20) (2022-08-03)
 
