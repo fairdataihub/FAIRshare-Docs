@@ -42,13 +42,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        gtag: {
-          trackingID: 'G-N2B19HF19W',
-          anonymizeIP: true,
-        },
       }),
     ],
   ],
+
+  plugins: ['docusaurus-plugin-umami'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -155,11 +153,17 @@ const config = {
           content: 'Fair Data Innovations Hub',
         },
       ],
+
       algolia: {
         appId: 'GD7SXR5V16',
         apiKey: 'a3dc9a3cc59523cd37850a7480ab26b7',
         indexName: 'fairshareapp',
         contextualSearch: true,
+      },
+
+      umami: {
+        websiteid: 'a0d89633-5053-41a1-ab20-08ea4214c798',
+        src: 'https://umami.fairdataihub.org/mushroom.js',
       },
     }),
   scripts: [

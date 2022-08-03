@@ -1,11 +1,8 @@
 /* eslint-disable max-len */
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 // eslint-disable-next-line import/no-unresolved
 import Link from '@docusaurus/Link';
-import Lottie from 'react-lottie';
-import { useCookies } from 'react-cookie';
-import CookiesLottieJSON from './cookies.json';
 
 export function ExternalLinkSVG() {
   return (
@@ -27,31 +24,6 @@ export function ExternalLinkSVG() {
 }
 
 export default function FooterWrapper() {
-  const animationOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: CookiesLottieJSON,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
-    },
-  };
-
-  const [showCookieBanner, setShowCookieBanner] = useState(false);
-  const [cookies, setCookie] = useCookies(['cookieConsent']);
-
-  const handleCookieBannerClose = () => {
-    setShowCookieBanner(false);
-    setCookie('cookieConsent', true, { path: '/', maxAge: 60 * 60 * 24 * 60 });
-  };
-
-  useEffect(() => {
-    if (cookies.cookieConsent) {
-      setShowCookieBanner(false);
-    } else {
-      setShowCookieBanner(true);
-    }
-  }, [cookies]);
-
   return (
     <div>
       <footer className="bg-[color:var(--footer-background-color)]">
@@ -491,30 +463,6 @@ export default function FooterWrapper() {
               </a>
             </div>
           </div>
-
-          {/* Cookie notification container */}
-          {showCookieBanner && (
-            <div className="fixed bottom-20 right-3 hidden max-w-[280px] scale-95 rounded-lg border-2 border-green-200 bg-zinc-50 shadow-md  transition-all hover:scale-100 hover:shadow-xl sm:flex">
-              <div className="mb-2 flex flex-col items-center justify-center py-2 px-4">
-                <Lottie options={animationOptions} height={150} width={150} />
-                <p className="mb-1 text-left text-sm text-gray-600">
-                  We use cookies to understand how you use our website and make your experience
-                  better.
-                </p>
-                <p className="mb-3 text-left text-sm text-gray-600">
-                  To learn more read our <Link href="/docs/privacypolicy">privacy policy</Link> and{' '}
-                  <Link href="/docs/cookiepolicy">cookie policy</Link>.
-                </p>
-                <button
-                  className="cookie-button cookie-button-yes !text-base"
-                  onClick={handleCookieBannerClose}
-                  type="button"
-                >
-                  Okay, I Agree
-                </button>
-              </div>
-            </div>
-          )}
         </div>
       </footer>
     </div>
