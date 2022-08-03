@@ -1,3 +1,10 @@
+## [3.2.20](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.19...v3.2.20) (2022-08-03)
+
+
+### Bug Fixes
+
+* **deps:** update emotion monorepo to v11.10.0 ([#100](https://github.com/fairdataihub/FAIRshare-Docs/issues/100)) ([21b59b2](https://github.com/fairdataihub/FAIRshare-Docs/commit/21b59b284b4a490761d0e5b931659f80d0aab89c))
+
 ## [3.2.19](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.2.18...v3.2.19) (2022-07-28)
 
 ### Bug Fixes
