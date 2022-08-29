@@ -53,7 +53,7 @@ You hereby release and forever discharge the Company and our officers, employees
 
 ### Cookies and Web Beacons
 
-Like any other website, Fair Data Innovations Hub uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+We do not use cookies or other personally identifiable tracking technologies. To see how we measure usage of our application please refer to our [Cookie Policy](cookiepolicy).
 
 ## Disclaimers
 

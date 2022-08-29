@@ -41,9 +41,7 @@ Collected information will be shared with the SPARC management team. It may also
 
 ### Do we use cookies and other tracking technologies?
 
-We use Google's Universal Analytics program to track anonymized user interactions within FAIRshare. To learn more about the technologies used please refer to [Security and privacy in Universal Analytics](https://support.google.com/analytics/answer/2838718?hl=en).
-
-On this documentation platform, Fair Data Innovations Hub uses cookies. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+We do not use cookies or other personally identifiable tracking technologies. To see how we measure usage of our application please refer to our [Cookie Policy](cookiepolicy).
 
 ### Log files
 

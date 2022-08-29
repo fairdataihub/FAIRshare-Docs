@@ -8,6 +8,7 @@ import { Icon } from '@iconify/react';
 import AllVersionsJSON from '@site/docs.compatibility.json';
 import packageJSON from '@site/package.json';
 import Head from '@docusaurus/Head';
+import PageFeedback from '@site/src/components/PageFeedback';
 
 const docsPluginId = undefined; // Default docs plugin instance
 
@@ -39,7 +40,6 @@ export default function Version() {
         <Heading as="h1">
           <span id="versionsPage.title">FAIRshare documentation versions</span>
         </Heading>
-
         <p>
           To better follow the FAIR standards and be more transparent in all aspects of the
           versioning and archival process we map every version of our documentation with the
@@ -48,7 +48,6 @@ export default function Version() {
           <Link to="https://github.com/semantic-release/semantic-release">Semantic releases</Link>,
           this page should list every matched version.
         </p>
-
         <div className="margin-bottom--lg">
           <Heading as="h3" id="next">
             <span id="versionsPage.current.title">Current version (Stable)</span>
@@ -109,7 +108,6 @@ export default function Version() {
             </tbody>
           </table>
         </div>
-
         {currentVersion !== latestVersion && (
           <div className="margin-bottom--lg">
             <Heading as="h3" id="latest">
@@ -136,7 +134,6 @@ export default function Version() {
             </table>
           </div>
         )}
-
         <div className="margin-bottom--lg">
           <Heading as="h3" id="archive">
             <span id="versionsPage.archived.title">Past versions (Not maintained anymore)</span>
@@ -192,6 +189,10 @@ export default function Version() {
               ))}
             </tbody>
           </table>
+        </div>
+
+        <div className="custom-feedback-container">
+          <PageFeedback />
         </div>
       </main>
     </Layout>

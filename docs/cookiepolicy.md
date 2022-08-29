@@ -1,3 +1,10 @@
+---
+sidebar_position: 10
+pagination_prev: null
+pagination_next: null
+title: Cookie Policy
+---
+
 ## What Are Cookies?
 
 A cookie is a file that is downloaded to a device (computer or mobile phone) when accessing certain web pages. Cookies allow a web page, among other things, to store and retrieve information about the browsing habits of a user or a computer and, depending on the information they contain and the way they use their equipment, they can be used to recognize to user.
@@ -17,7 +24,10 @@ When you access third party sites on our Sites, or when you are reading integrat
 Please feel free to contact us if you have any questions or complaints about Fair Data Innovation Hub's Cookie Policy.
 
 **Address**: 11107 Roselle St. Ste #211 San Diego, CA 92121
+
 **Contact form**: https://fairdataihub.org/contact-us
+
 **Email**: info@fairdataihub.org
+
 import PageFeedback from '@site/src/components/PageFeedback';
 <PageFeedback />
