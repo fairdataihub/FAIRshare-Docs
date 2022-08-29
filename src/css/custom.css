@@ -30,6 +30,8 @@ html {
   --hr-color: #e5e7eb;
   --feedback-yes-color: #2563eb;
   --feedback-no-color: var(--no-color);
+
+  --footer-background-color: #fafafa;
 }
 
 /* dark theme variables */
@@ -59,6 +61,8 @@ html[data-theme='dark'] {
   --hr-color: #334155;
   --feedback-yes-color: #3b82f6;
   --feedback-no-color: var(--no-color);
+
+  --footer-background-color: #27272a;
 }
 
 /* All the relevant class names can be found here: https://docusaurus.io/docs/styling-layout#theme-class-names */
