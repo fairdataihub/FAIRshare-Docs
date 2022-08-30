@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 title: Select a destination repository
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Select%20a%20destination%20repository&description=Curate%20and%20Share%20%7C%20Workflows
 ---
 
 ## Background

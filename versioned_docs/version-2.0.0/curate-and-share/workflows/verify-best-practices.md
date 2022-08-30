@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Verify best practices
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Verify%20best%20practices&description=Curate%20and%20Share%20%7C%20Workflows
 ---
 
 ## Background

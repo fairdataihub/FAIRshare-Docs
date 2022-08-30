@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Add metadata for Zenodo
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Add%20metadata%20for%20Zenodo&description=Curate%20and%20Share%20%7C%20Zenodo
 ---
 
 ## Background

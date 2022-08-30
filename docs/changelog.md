@@ -3,6 +3,7 @@ sidebar_position: 7
 pagination_prev: null
 pagination_next: null
 title: Changelog
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Changelog&description=All%20notable%20changes%20to%20FAIRshare
 ---
 
 All notable changes to FAIRshare are documented here.

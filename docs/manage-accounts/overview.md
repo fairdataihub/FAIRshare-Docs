@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Overview
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Overview&description=Manage%20Accounts
 ---
 
 This section is used to provide you a quick overview of all the connected integrations between FAIRshare and the data repositories. All data sources and destinations that require you to provide either a username and password or a token are listed here. All your login information is only stored locally and is never sent to any external server. This means that no one can see your login information at any time. All your tokens are also encrypted to prevent unauthorized access.
