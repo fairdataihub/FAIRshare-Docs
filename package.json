@@ -26,6 +26,7 @@
     "@docusaurus/preset-classic": "^2.0.1",
     "@emotion/react": "11.10.0",
     "@emotion/styled": "11.10.0",
+    "@iconify/react": "^3.2.2",
     "@mdx-js/react": "1.6.22",
     "@mui/material": "5.9.3",
     "@svgr/webpack": "6.3.1",

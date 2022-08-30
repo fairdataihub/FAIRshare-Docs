@@ -17,7 +17,7 @@ jobs:
 
       - name: Upload to Zenodo
         id: release
-        uses: megasanjay/upload-to-zenodo@v1.6.1
+        uses: megasanjay/upload-to-zenodo@v2.0.0
         with:
           github_token: ${{ secrets.BOT_ACTIONS }}
           zenodo_token: ${{ secrets.ZENODO_TOKEN }}
@@ -31,6 +31,7 @@ jobs:
           codemeta_json: true
           citation_cff: true
           zenodo_json: true
+          docs_compatibility_json: true
 
       # Get the doi from the `release` step
       - name: Get the output doi

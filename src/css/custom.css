@@ -30,6 +30,8 @@ html {
   --hr-color: #e5e7eb;
   --feedback-yes-color: #2563eb;
   --feedback-no-color: var(--no-color);
+
+  --footer-background-color: #fafafa;
 }
 
 /* dark theme variables */
@@ -59,6 +61,8 @@ html[data-theme='dark'] {
   --hr-color: #334155;
   --feedback-yes-color: #3b82f6;
   --feedback-no-color: var(--no-color);
+
+  --footer-background-color: #27272a;
 }
 
 /* All the relevant class names can be found here: https://docusaurus.io/docs/styling-layout#theme-class-names */
@@ -83,22 +87,24 @@ h6,
   @apply text-sm;
 }
 
-.theme-doc-markdown .feedback-divider {
+.theme-doc-markdown .feedback-divider,
+.custom-feedback-container .feedback-divider {
   border-color: var(--hr-color);
   @apply rounded-lg border border-solid;
 }
 
 .theme-doc-markdown .feedback-button,
-.cookie-button {
+.custom-feedback-container .feedback-button {
   @apply flex w-full cursor-pointer appearance-none flex-row items-center justify-evenly rounded-lg border-2 border-solid bg-transparent px-6 py-1 text-lg font-semibold transition-all hover:-translate-y-px hover:shadow-md active:translate-y-0 active:shadow-none;
 }
 
 .theme-doc-markdown .feedback-button-yes,
-.cookie-button-yes {
+.custom-feedback-container .feedback-button-yes {
   @apply border-[color:var(--feedback-yes-color)] text-[color:var(--feedback-yes-color)] hover:shadow-[color:var(--feedback-yes-color)];
 }
 
-.theme-doc-markdown .feedback-button-no {
+.theme-doc-markdown .feedback-button-no,
+.custom-feedback-container .feedback-button-no {
   @apply border-[color:var(--feedback-no-color)] text-[color:var(--feedback-no-color)] hover:shadow-[color:var(--feedback-no-color)];
 }
 
