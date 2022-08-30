@@ -39,7 +39,7 @@ In this section you will be asked to provide the basic information about your da
 
 ### License
 
-This section will not be editable by the user. To make a dataset FAIR it must have `Open Access`. In order to change the license of your dataset, please go to the [Pick a license](select-a-license) page.
+This section will not be editable by the user. To make a dataset FAIR it must have `Open Access`. In order to change the license of your dataset, please go to the [Pick a license](../workflows/select-a-license) page.
 
 :::info
 We will be adding support for the other embargoed `Access rights` in the future.
