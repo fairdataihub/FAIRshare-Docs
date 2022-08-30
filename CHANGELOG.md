@@ -1,9 +1,8 @@
 # [4.1.0](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.0.0...v4.1.0) (2022-08-30)
 
-
 ### Features
 
-* ✨ add og image thumbnails to pages ([#110](https://github.com/fairdataihub/FAIRshare-Docs/issues/110)) ([df9a24d](https://github.com/fairdataihub/FAIRshare-Docs/commit/df9a24d84048ff227567292306fe559c666e14ff))
+- ✨ add og image thumbnails to pages ([#110](https://github.com/fairdataihub/FAIRshare-Docs/issues/110)) ([df9a24d](https://github.com/fairdataihub/FAIRshare-Docs/commit/df9a24d84048ff227567292306fe559c666e14ff))
 
 # [4.0.0](https://github.com/fairdataihub/FAIRshare-Docs/compare/v3.3.1...v4.0.0) (2022-08-30)
 
