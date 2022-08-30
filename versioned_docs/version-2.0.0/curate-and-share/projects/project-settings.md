@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Project settings
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Project%20settings&description=Curate%20and%20Share%20%7C%20Projects
 ---
 
 ## Background

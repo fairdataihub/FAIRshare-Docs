@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: View all your projects
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=View%20all%20your%20projects&description=Curate%20and%20Share%20%7C%20Projects
 ---
 
 ## Background

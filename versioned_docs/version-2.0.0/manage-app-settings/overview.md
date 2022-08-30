@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Overview
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Overview&description=Manage%20App%20Settings
 ---
 
 Some settings for the FAIRshare application can be managed here. This section will be constantly updated with new features and improvements that you will be able to control so be sure to check back often.

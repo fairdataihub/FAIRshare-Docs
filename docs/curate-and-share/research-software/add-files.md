@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Add additional files to release
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Add%20additional%20files%20to%20release&description=Curate%20and%20Share%20%7C%20Research%20software
 ---
 
 ## Background

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Building the application
+image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Building%20the%20application&description=For%20Developers
 ---
 
 To build the complete application, you will need to build the python executable and the Electron portion separately.
