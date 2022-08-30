@@ -1,7 +1,7 @@
 {
   "upload_type": "software",
   "title": "FAIRshare docs",
-  "publication_date": "2022-06-03",
+  "publication_date": "2022-08-30",
   "creators": [
     {
       "name": "Soundarajan, Sanjay",
@@ -25,5 +25,5 @@
     "ubuntu",
     "windows"
   ],
-  "version": "4.0.0"
+  "version": "4.1.0"
 }
