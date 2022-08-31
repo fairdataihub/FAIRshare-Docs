@@ -1,9 +1,8 @@
 ## [4.1.1](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.1.0...v4.1.1) (2022-08-31)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @mui/material to v5.10.3 ([#113](https://github.com/fairdataihub/FAIRshare-Docs/issues/113)) ([26cd97f](https://github.com/fairdataihub/FAIRshare-Docs/commit/26cd97f94314335e3e5b0e8931dea386550589f2))
+- **deps:** update dependency @mui/material to v5.10.3 ([#113](https://github.com/fairdataihub/FAIRshare-Docs/issues/113)) ([26cd97f](https://github.com/fairdataihub/FAIRshare-Docs/commit/26cd97f94314335e3e5b0e8931dea386550589f2))
 
 # [4.1.0](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.0.0...v4.1.0) (2022-08-30)
 
