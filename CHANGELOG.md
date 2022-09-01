@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.1.2...v4.2.0) (2022-09-01)
+
+
+### Features
+
+* ✨  add support for text comments with Notion ([#116](https://github.com/fairdataihub/FAIRshare-Docs/issues/116)) ([b897374](https://github.com/fairdataihub/FAIRshare-Docs/commit/b8973742da8473fc46cf203dfb4d363d207aacc7))
+
 ## [4.1.2](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.1.1...v4.1.2) (2022-08-31)
 
 ### Bug Fixes
