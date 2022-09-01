@@ -1,18 +1,71 @@
 const express = require('express');
-const axios = require('axios');
-const { v4: uuidv4 } = require('uuid');
+const { Client } = require('@notionhq/client');
 
 const app = express();
 
 app.use(express.json());
+
+const notion = new Client({ auth: process.env.NOTION_KEY });
+const databaseId = process.env.NOTION_DATABASE_ID;
+
+async function addItem(type, category, action, feedbackText = '') {
+  try {
+    const response = await notion.pages.create({
+      parent: { database_id: databaseId },
+      properties: {
+        Category: {
+          title: [
+            {
+              text: {
+                content: category,
+              },
+            },
+          ],
+        },
+        Action: {
+          rich_text: [
+            {
+              text: {
+                content: action,
+              },
+            },
+          ],
+        },
+        Feedback: {
+          rich_text: [
+            {
+              text: {
+                content: feedbackText,
+              },
+            },
+          ],
+        },
+        Type: {
+          rich_text: [
+            {
+              text: {
+                content: type,
+              },
+            },
+          ],
+        },
+      },
+    });
+    // eslint-disable-next-line no-console
+    console.log(response);
+    // eslint-disable-next-line no-console
+    console.log('Success! Entry added.');
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.error(error.body);
+  }
+}
 
 app.post('/api/feedback', async (req, res) => {
   const { body } = req;
 
   // eslint-disable-next-line no-console
   console.log(`Feedback received: ${JSON.stringify(body)}`);
-
-  const clientID = uuidv4();
 
   res.setHeader('Content-Type', 'text/html');
   res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
@@ -24,26 +77,12 @@ app.post('/api/feedback', async (req, res) => {
   } else if (body.action === undefined) {
     res.status(400).json({ message: `Action Missing ${body}` });
   } else {
-    const { category, action } = body;
+    const { type, category, action, feedbackText } = body;
 
     // eslint-disable-next-line no-console
     console.log(`Feedback submitted for Category '${category}' with Action '${action}' `);
 
-    const config = {
-      method: 'post',
-      // eslint-disable-next-line max-len
-      url: `https://www.google-analytics.com/collect?v=1&t=event&tid=${process.env.UNIVERSAL_ANALYTICS_ID}&cid=${clientID}&ec=${category}&ea=${action}`,
-      headers: {
-        'User-Agent': 'Mozilla/5.0',
-      },
-    };
-
-    try {
-      await axios(config);
-    } catch (error) {
-      res.status(500).json({ message: `Something went wrong: ${error}` });
-      throw new Error('Unable to get a token.');
-    }
+    await addItem(type, category, action, feedbackText);
 
     res.json({ success: true, message: `Feedback Sent` });
   }

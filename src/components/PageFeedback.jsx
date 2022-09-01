@@ -6,7 +6,7 @@ import DislikeAnimationData from './lotties/dislike.json';
 import SuccessAnimationData from './lotties/success.json';
 
 // eslint-disable-next-line react/prop-types
-function AskFeedback({ setShowSuccess }) {
+function AskFeedback({ setShowSuccess, setReaction, setShowTextFeedback }) {
   const [startLikeAnimation, setStartLikeAnimation] = React.useState(false);
   const [startDislikeAnimation, setStartDislikeAnimation] = React.useState(false);
 
@@ -28,17 +28,20 @@ function AskFeedback({ setShowSuccess }) {
     },
   };
 
-  const sendFeedback = (reaction) => {
+  const sendReactionFeedback = (action) => {
     // eslint-disable-next-line no-console
-    console.log(`Send feedback - Title: ${document.title} | Reaction: ${reaction}`, reaction);
+    console.log(`Send feedback - Title: ${document.title} | Reaction: ${action}`, action);
+
+    setReaction(action);
 
     const windowTitle = document.title;
     const analyticsTitle = windowTitle.split(' | ')[0];
+    const feedbackText = '';
 
     const requestOptions = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ category: analyticsTitle, action: reaction }),
+      body: JSON.stringify({ type: 'Reaction', category: analyticsTitle, action, feedbackText }),
     };
     fetch('/api/feedback', requestOptions).then(async (response) => {
       const { status } = response;
@@ -59,6 +62,7 @@ function AskFeedback({ setShowSuccess }) {
       }
     });
 
+    setShowTextFeedback(true);
     setShowSuccess(true);
   };
 
@@ -69,7 +73,7 @@ function AskFeedback({ setShowSuccess }) {
       <div className="flex items-center justify-center space-x-4">
         <button
           className="feedback-button feedback-button-yes"
-          onClick={() => sendFeedback('Like')}
+          onClick={() => sendReactionFeedback('Like')}
           onMouseEnter={() => setStartLikeAnimation(true)}
           onMouseLeave={() => setStartLikeAnimation(false)}
           type="button"
@@ -85,7 +89,7 @@ function AskFeedback({ setShowSuccess }) {
         </button>
         <button
           className="feedback-button feedback-button-no"
-          onClick={() => sendFeedback('Dislike')}
+          onClick={() => sendReactionFeedback('Dislike')}
           onMouseEnter={() => setStartDislikeAnimation(true)}
           onMouseLeave={() => setStartDislikeAnimation(false)}
           type="button"
@@ -104,7 +108,8 @@ function AskFeedback({ setShowSuccess }) {
   );
 }
 
-function ShowSuccessMessage() {
+// eslint-disable-next-line react/prop-types
+function ShowSuccessMessage({ hideSubText }) {
   const animationOptions = {
     loop: 1,
     autoplay: true,
@@ -116,26 +121,108 @@ function ShowSuccessMessage() {
 
   return (
     <div className="flex flex-row items-center justify-center">
-      <h3 className="mb-0 w-max"> Thank you for your feedback! </h3>
-      <Lottie
-        options={animationOptions}
-        height={70}
-        width={70}
-        isClickToPauseDisabled
-        style={{ margin: '0' }}
-      />
+      <div className="flex flex-col items-center justify-center">
+        <h3 className="mb-0 w-max"> Thank you for your feedback! </h3>
+        {!hideSubText && (
+          <h4 className="mb-3 pt-1">Would you like to leave any additional comments?</h4>
+        )}
+      </div>
+      {hideSubText && (
+        <Lottie
+          options={animationOptions}
+          height={70}
+          width={70}
+          isClickToPauseDisabled
+          style={{ margin: '0' }}
+        />
+      )}
     </div>
   );
 }
 
 function PageFeedback() {
   const [showSuccess, setShowSuccess] = React.useState(false);
+  const [showTextFeedback, setShowTextFeedback] = React.useState(false);
+  const [reaction, setReaction] = React.useState('');
+  const [hideSubText, setHideSubText] = React.useState(false);
+  const [feedbackText, setFeedbackText] = React.useState('');
+
+  const handleFeedbackTextChange = (event) => {
+    setFeedbackText(event.target.value);
+  };
+
+  const sendTextFeedback = () => {
+    // eslint-disable-next-line no-console
+    console.log(`Send feedback - Title: ${document.title} | Reaction: ${reaction}`, feedbackText);
+
+    const windowTitle = document.title;
+    const analyticsTitle = windowTitle.split(' | ')[0];
+
+    const requestOptions = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        type: 'Comment',
+        category: analyticsTitle,
+        action: reaction,
+        feedbackText,
+      }),
+    };
+
+    fetch('/api/feedback', requestOptions).then(async (response) => {
+      const { status } = response;
+
+      if (status === 200) {
+        const res = await response.json();
+
+        if (res.success) {
+          // eslint-disable-next-line no-console
+          console.log(`Feedback sent successfully. Message: ${res.message}`);
+        } else {
+          // eslint-disable-next-line no-console
+          console.log('There was an error with sending the feedback');
+        }
+      } else {
+        // eslint-disable-next-line no-console
+        console.log('There was an error with sending the feedback');
+      }
+    });
+
+    setHideSubText(true);
+    setShowTextFeedback(false);
+  };
 
   return (
     <div className="mt-4 w-full ">
       <hr className="feedback-divider" />
 
-      {showSuccess ? <ShowSuccessMessage /> : <AskFeedback setShowSuccess={setShowSuccess} />}
+      {showSuccess ? (
+        <ShowSuccessMessage hideSubText={hideSubText} />
+      ) : (
+        <AskFeedback
+          setShowSuccess={setShowSuccess}
+          setReaction={setReaction}
+          setShowTextFeedback={setShowTextFeedback}
+        />
+      )}
+
+      {showTextFeedback && (
+        <div className="flex justify-center space-x-2 pt-1">
+          <textarea
+            className="w-[350px] rounded-md px-3 py-2 font-inter"
+            placeholder="Any additional comments?"
+            onChange={handleFeedbackTextChange}
+            value={feedbackText}
+          />
+          <button
+            type="button"
+            className="feedback-button feedback-button-yes !w-[180px]"
+            onClick={() => sendTextFeedback()}
+          >
+            Send feedback
+          </button>
+        </div>
+      )}
     </div>
   );
 }
