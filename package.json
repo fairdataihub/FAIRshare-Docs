@@ -22,8 +22,8 @@
     "*.{js,jsx,css,md}": "prettier --write"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.1",
-    "@docusaurus/preset-classic": "^2.0.1",
+    "@docusaurus/core": "2.1.0",
+    "@docusaurus/preset-classic": "2.1.0",
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
     "@iconify/react": "^3.2.2",
