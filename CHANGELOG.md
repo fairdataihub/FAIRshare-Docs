@@ -1,3 +1,11 @@
+## [4.2.2](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.1...v4.2.2) (2022-09-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @notionhq/client to v2.2.0 ([#118](https://github.com/fairdataihub/FAIRshare-Docs/issues/118)) ([b642700](https://github.com/fairdataihub/FAIRshare-Docs/commit/b64270051cabb722bb20cce27f627dced25daaf7))
+* **deps:** update docusaurus monorepo to v2.1.0 ([#117](https://github.com/fairdataihub/FAIRshare-Docs/issues/117)) ([e62d9e3](https://github.com/fairdataihub/FAIRshare-Docs/commit/e62d9e3352e407dd63850eb924e357a87b8d7acf))
+
 ## [4.2.1](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.0...v4.2.1) (2022-09-01)
 
 ### Bug Fixes
