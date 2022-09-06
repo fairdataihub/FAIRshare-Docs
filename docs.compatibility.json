@@ -134,5 +134,9 @@
   {
     "docsVersion": "4.2.1",
     "appVersion": "2.0.0"
+  },
+  {
+    "docsVersion": "4.2.2",
+    "appVersion": "2.0.0"
   }
 ]
