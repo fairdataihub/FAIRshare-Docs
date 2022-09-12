@@ -1,3 +1,13 @@
+## [4.2.3](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.2...v4.2.3) (2022-09-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @iconify/react to v4 ([#122](https://github.com/fairdataihub/FAIRshare-Docs/issues/122)) ([53df466](https://github.com/fairdataihub/FAIRshare-Docs/commit/53df466315a17a18caa77b83bc5644543b2cdd08))
+* **deps:** update dependency @mui/material to v5.10.5 ([#121](https://github.com/fairdataihub/FAIRshare-Docs/issues/121)) ([db40fb8](https://github.com/fairdataihub/FAIRshare-Docs/commit/db40fb88752c17ca2490763601e27eaa3c17ecf0))
+* **deps:** update dependency @mui/material to v5.10.5 ([#123](https://github.com/fairdataihub/FAIRshare-Docs/issues/123)) ([8ef9360](https://github.com/fairdataihub/FAIRshare-Docs/commit/8ef93606760c0982d488ddb6a5f2afe083792264))
+* **deps:** update dependency uuid to v9 ([#120](https://github.com/fairdataihub/FAIRshare-Docs/issues/120)) ([ed51976](https://github.com/fairdataihub/FAIRshare-Docs/commit/ed519765891bbabcc1446e3788eb278116838a2d))
+
 ## [4.2.2](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.1...v4.2.2) (2022-09-06)
 
 ### Bug Fixes
