@@ -1,3 +1,10 @@
+## [4.2.4](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.3...v4.2.4) (2022-09-14)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency docusaurus-plugin-umami to 2.0.0 ([#125](https://github.com/fairdataihub/FAIRshare-Docs/issues/125)) ([a0cd553](https://github.com/fairdataihub/FAIRshare-Docs/commit/a0cd553f102b06a5e64ae34aeac2b027391a540d))
+
 ## [4.2.3](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.2...v4.2.3) (2022-09-12)
 
 ### Bug Fixes
