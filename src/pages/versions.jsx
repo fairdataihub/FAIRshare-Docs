@@ -27,12 +27,12 @@ export default function Version() {
         <meta
           property="og:image"
           // eslint-disable-next-line max-len
-          content="https://og.fairdataihub.org/api/ogimage?app=soda-for-sparc&title=Documentation%20versions&description=Match%20every%20docs%20version%20to%20an%20app%20version."
+          content="https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Documentation%20versions&description=Match%20every%20docs%20version%20to%20an%20app%20version."
         />
         <meta
           property="twitter:image"
           // eslint-disable-next-line max-len
-          content="https://og.fairdataihub.org/api/ogimage?app=soda-for-sparc&title=Documentation%20versions&description=Match%20every%20docs%20version%20to%20an%20app%20version."
+          content="https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Documentation%20versions&description=Match%20every%20docs%20version%20to%20an%20app%20version."
         />
       </Head>
 
@@ -74,7 +74,7 @@ export default function Version() {
                   <span>{packageJSON.version}</span>
 
                   <Link
-                    to={`https://github.com/fairdataihub/SODA-for-SPARC-Docs/releases/tag/v${
+                    to={`https://github.com/fairdataihub/FAIRshare-Docs/releases/tag/v${
                       AllVersionsJSON.at(-1).docsVersion
                     }`}
                     className="flex items-center text-slate-700"
@@ -95,7 +95,7 @@ export default function Version() {
                     <span>{latestVersion.label}</span>
 
                     <Link
-                      to={`https://github.com/fairdataihub/SODA-for-SPARC/releases/tag/v${
+                      to={`https://github.com/fairdataihub/FAIRshare/releases/tag/v${
                         AllVersionsJSON.at(-1).appVersion
                       }`}
                       className="flex items-center text-slate-700"
@@ -165,7 +165,7 @@ export default function Version() {
 
                     <Link
                       // eslint-disable-next-line max-len
-                      to={`https://github.com/fairdataihub/SODA-for-SPARC-Docs/releases/tag/v${version.docsVersion}`}
+                      to={`https://github.com/fairdataihub/FAIRshare-Docs/releases/tag/v${version.docsVersion}`}
                       className="flex items-center text-slate-700"
                     >
                       <Icon icon="akar-icons:github-fill" />
@@ -178,7 +178,7 @@ export default function Version() {
 
                       <Link
                         // eslint-disable-next-line max-len
-                        to={`https://github.com/fairdataihub/SODA-for-SPARC/releases/tag/v${version.appVersion}`}
+                        to={`https://github.com/fairdataihub/FAIRshare/releases/tag/v${version.appVersion}`}
                         className="flex items-center text-slate-700"
                       >
                         <Icon icon="akar-icons:github-fill" />
