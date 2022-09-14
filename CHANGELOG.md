@@ -1,3 +1,11 @@
+## [4.2.5](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.4...v4.2.5) (2022-09-14)
+
+
+### Bug Fixes
+
+* 🐛 update github release tags ([c1cb18d](https://github.com/fairdataihub/FAIRshare-Docs/commit/c1cb18de9dd51d441a5de11c3f55abc85ad76908))
+* 🐛 update github release tags ([f863a9a](https://github.com/fairdataihub/FAIRshare-Docs/commit/f863a9ad69c092a624d6e8d29e5c8e3d46b8fbbf))
+
 ## [4.2.4](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.3...v4.2.4) (2022-09-14)
 
 ### Bug Fixes
