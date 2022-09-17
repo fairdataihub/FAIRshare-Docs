@@ -47,7 +47,7 @@
     "uuid": "9.0.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.18.9",
+    "@babel/eslint-parser": "7.19.1",
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
     "@fairdataihub/config": "1.2.2",
