@@ -1,3 +1,10 @@
+## [4.2.6](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.5...v4.2.6) (2022-09-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-player to v2.11.0 ([#130](https://github.com/fairdataihub/FAIRshare-Docs/issues/130)) ([9a1492b](https://github.com/fairdataihub/FAIRshare-Docs/commit/9a1492b457eae960cc04dd20abb367695226e843))
+
 ## [4.2.5](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.4...v4.2.5) (2022-09-14)
 
 ### Bug Fixes
