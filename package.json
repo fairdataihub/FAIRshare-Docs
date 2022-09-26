@@ -57,7 +57,7 @@
     "@semantic-release/github": "8.0.6",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "autoprefixer": "10.4.11",
+    "autoprefixer": "10.4.12",
     "babel-eslint": "10.1.0",
     "devmoji": "2.3.0",
     "eslint": "8.23.1",
