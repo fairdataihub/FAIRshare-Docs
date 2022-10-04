@@ -1,3 +1,10 @@
+## [4.2.9](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.8...v4.2.9) (2022-10-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @svgr/webpack to v6.4.0 ([#137](https://github.com/fairdataihub/FAIRshare-Docs/issues/137)) ([248caa6](https://github.com/fairdataihub/FAIRshare-Docs/commit/248caa6d850c34d0a9dbdf121a8c1fe09a40fb44))
+
 ## [4.2.8](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.7...v4.2.8) (2022-09-30)
 
 ### Bug Fixes
