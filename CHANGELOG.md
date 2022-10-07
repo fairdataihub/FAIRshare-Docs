@@ -1,9 +1,8 @@
 ## [4.2.11](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.10...v4.2.11) (2022-10-07)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @notionhq/client to v2.2.1 ([#139](https://github.com/fairdataihub/FAIRshare-Docs/issues/139)) ([9ef2526](https://github.com/fairdataihub/FAIRshare-Docs/commit/9ef252659ff5a4ac079c7e766529d779e292bfd5))
+- **deps:** update dependency @notionhq/client to v2.2.1 ([#139](https://github.com/fairdataihub/FAIRshare-Docs/issues/139)) ([9ef2526](https://github.com/fairdataihub/FAIRshare-Docs/commit/9ef252659ff5a4ac079c7e766529d779e292bfd5))
 
 ## [4.2.10](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.9...v4.2.10) (2022-10-06)
 
