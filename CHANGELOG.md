@@ -1,3 +1,10 @@
+## [4.2.13](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.12...v4.2.13) (2022-10-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency express to v4.18.2 ([#142](https://github.com/fairdataihub/FAIRshare-Docs/issues/142)) ([45f5890](https://github.com/fairdataihub/FAIRshare-Docs/commit/45f5890fb7317efbbdaeef4d265423322e0d1173))
+
 ## [4.2.12](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.11...v4.2.12) (2022-10-10)
 
 ### Bug Fixes
