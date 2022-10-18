@@ -1,3 +1,10 @@
+## [4.2.16](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.15...v4.2.16) (2022-10-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axios to v1.1.3 ([#147](https://github.com/fairdataihub/FAIRshare-Docs/issues/147)) ([14192f6](https://github.com/fairdataihub/FAIRshare-Docs/commit/14192f655b3d2db2764d1f3b194f5e47198b3c82))
+
 ## [4.2.15](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.14...v4.2.15) (2022-10-18)
 
 ### Bug Fixes
