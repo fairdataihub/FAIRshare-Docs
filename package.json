@@ -28,7 +28,7 @@
     "@emotion/styled": "11.10.4",
     "@iconify/react": "4.0.0",
     "@mdx-js/react": "1.6.22",
-    "@mui/material": "5.10.9",
+    "@mui/material": "5.10.10",
     "@notionhq/client": "2.2.1",
     "@svgr/webpack": "6.5.0",
     "axios": "1.1.3",
