@@ -1,3 +1,10 @@
+## [4.2.17](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.16...v4.2.17) (2022-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @mui/material to v5.10.10 ([#148](https://github.com/fairdataihub/FAIRshare-Docs/issues/148)) ([e7bc151](https://github.com/fairdataihub/FAIRshare-Docs/commit/e7bc1511471e924ca74fa0a318982225b8bf65eb))
+
 ## [4.2.16](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.15...v4.2.16) (2022-10-18)
 
 ### Bug Fixes
