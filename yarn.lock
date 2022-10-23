@@ -3219,7 +3219,16 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fairdataihub/config@1.2.2", "@fairdataihub/config@^1.2.1":
+"@fairdataihub/config@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@fairdataihub/config/-/config-2.0.0.tgz#13b55a3982f36a052d92a41b79e352d87d2ecfd2"
+  integrity sha512-DRKF7prj1uhsHVRiKn03db+2fLHwIY7MDqXDmmCZP++oYem6DPUg8j6bMCEwrlpqxeqPn3KGEMum0EC+X1w6DQ==
+  dependencies:
+    "@fairdataihub/config" "^1.2.1"
+    "@semantic-release/git" "^10.0.1"
+    megasanjay-devmoji "^1.0.0"
+
+"@fairdataihub/config@^1.2.1":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@fairdataihub/config/-/config-1.2.2.tgz#931b46bd09ee692ed47d5ce6bd31404aa09a6acf"
   integrity sha512-tv0tymBWVmODZjqtK9JvnrfZF5AW9DK2oUyQSZsNKcmdxYvTrEKUPCDlASCk/uJUJfl6CdkSG9BMmaqYg3rzyg==
@@ -9635,6 +9644,15 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
 
+megasanjay-devmoji@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/megasanjay-devmoji/-/megasanjay-devmoji-1.1.0.tgz#5d5ae4be349140ae41473f775401488acea92538"
+  integrity sha512-wUZ4acDnnXhxiJYTSUeYFeTNBjnmdgXtHuukhuyu1vio+8WypXjsKNq4Xi977I6Fh87lNyldMvDebOGBWCctQQ==
+  dependencies:
+    chalk "^4.1.1"
+    commander "7.2.0"
+    ts-interface-checker "1.0.2"
+
 memfs@^3.1.2, memfs@^3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/memfs/-/memfs-3.4.1.tgz#b78092f466a0dce054d63d39275b24c71d3f1305"
@@ -13138,6 +13156,11 @@ ts-interface-checker@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-1.0.0.tgz#2c637389f24566e0bf7db8e4482bad1db7d3bd87"
   integrity sha512-yUeWbFBDiwPodNqrqpvQpGWheL6PvNu2/pVAb9yy2vzdkkflCgwVA4U2akByPCXzYTum3/5/nB92yKuiLpSo/Q==
+
+ts-interface-checker@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-1.0.2.tgz#63f73a098b0ed34b982df1f490c54890e8e5e0b3"
+  integrity sha512-4IKKvhZRXhvtYF/mtu+OCfBqJKV6LczUq4kQYcpT+iSB7++R9+giWnp2ecwWMIcnG16btVOkXFnoxLSYMN1Q1g==
 
 ts-node@^10.8.1:
   version "10.9.1"
