@@ -1,11 +1,10 @@
 ## [4.2.18](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.17...v4.2.18) (2022-10-31)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @mui/material to v5.10.11 ([#153](https://github.com/fairdataihub/FAIRshare-Docs/issues/153)) ([1a7320f](https://github.com/fairdataihub/FAIRshare-Docs/commit/1a7320fd97e143667f1640599bf60f99ff5f0cb8))
-* **deps:** update dependency @svgr/webpack to v6.5.1 ([#156](https://github.com/fairdataihub/FAIRshare-Docs/issues/156)) ([4326b40](https://github.com/fairdataihub/FAIRshare-Docs/commit/4326b40c704e17cb2ab0fa5c5500427a9ef693ee))
-* **deps:** update emotion monorepo to v11.10.5 ([#154](https://github.com/fairdataihub/FAIRshare-Docs/issues/154)) ([5776c4b](https://github.com/fairdataihub/FAIRshare-Docs/commit/5776c4bb0773f6c07054f0bff703a08c1f69febc))
+- **deps:** update dependency @mui/material to v5.10.11 ([#153](https://github.com/fairdataihub/FAIRshare-Docs/issues/153)) ([1a7320f](https://github.com/fairdataihub/FAIRshare-Docs/commit/1a7320fd97e143667f1640599bf60f99ff5f0cb8))
+- **deps:** update dependency @svgr/webpack to v6.5.1 ([#156](https://github.com/fairdataihub/FAIRshare-Docs/issues/156)) ([4326b40](https://github.com/fairdataihub/FAIRshare-Docs/commit/4326b40c704e17cb2ab0fa5c5500427a9ef693ee))
+- **deps:** update emotion monorepo to v11.10.5 ([#154](https://github.com/fairdataihub/FAIRshare-Docs/issues/154)) ([5776c4b](https://github.com/fairdataihub/FAIRshare-Docs/commit/5776c4bb0773f6c07054f0bff703a08c1f69febc))
 
 ## [4.2.17](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.16...v4.2.17) (2022-10-21)
 
