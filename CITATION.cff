@@ -9,11 +9,11 @@ authors:
     family-names: Patel
     given-names: Bhavesh
 cff-version: 1.2.0
-date-released: '2022-10-21'
+date-released: '2022-10-31'
 identifiers:
   - description: DOI for this software's record on Zenodo
     type: doi
-    value: https://doi.org/10.5281/zenodo.7236668
+    value: https://doi.org/10.5281/zenodo.7268365
 keywords:
   - FAIR
   - data
@@ -30,4 +30,4 @@ repository-code: https://github.com/fairdataihub/FAIRshare-Docs
 title: FAIRshare docs
 type: software
 url: https://fairdataihub.org/
-version: 4.2.17
+version: 4.2.18
