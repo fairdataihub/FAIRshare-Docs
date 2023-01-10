@@ -1,10 +1,9 @@
 ## [4.2.19](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.18...v4.2.19) (2022-11-01)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @mui/material to v5.10.12 ([#158](https://github.com/fairdataihub/FAIRshare-Docs/issues/158)) ([453f0e0](https://github.com/fairdataihub/FAIRshare-Docs/commit/453f0e070aa02b313a3053753dfce7300179a67c))
-* **deps:** update docusaurus monorepo to v2.2.0 ([#157](https://github.com/fairdataihub/FAIRshare-Docs/issues/157)) ([0f38080](https://github.com/fairdataihub/FAIRshare-Docs/commit/0f3808009c8055bc2ba4730030b0d9f0011086e9))
+- **deps:** update dependency @mui/material to v5.10.12 ([#158](https://github.com/fairdataihub/FAIRshare-Docs/issues/158)) ([453f0e0](https://github.com/fairdataihub/FAIRshare-Docs/commit/453f0e070aa02b313a3053753dfce7300179a67c))
+- **deps:** update docusaurus monorepo to v2.2.0 ([#157](https://github.com/fairdataihub/FAIRshare-Docs/issues/157)) ([0f38080](https://github.com/fairdataihub/FAIRshare-Docs/commit/0f3808009c8055bc2ba4730030b0d9f0011086e9))
 
 ## [4.2.18](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.17...v4.2.18) (2022-10-31)
 
