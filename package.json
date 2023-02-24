@@ -1,6 +1,6 @@
 {
   "name": "fairshare-docs",
-  "version": "4.2.20",
+  "version": "4.2.21",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
