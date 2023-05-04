@@ -1,3 +1,10 @@
+## [4.2.22](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.21...v4.2.22) (2023-05-04)
+
+
+### Bug Fixes
+
+* 🐛 update umami script url ([085ca87](https://github.com/fairdataihub/FAIRshare-Docs/commit/085ca87247577df9e274eb9fb6dc0285e19e6d64))
+
 ## [4.2.21](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.20...v4.2.21) (2023-02-24)
 
 ### Bug Fixes
