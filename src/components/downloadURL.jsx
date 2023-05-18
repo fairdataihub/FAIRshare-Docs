@@ -4,37 +4,37 @@ import PropTypes from 'prop-types';
 export default function DownloadURL({ children, os }) {
   const [downloadURL, setDownloadURL] = useState('https://docs.fairshareapp.io');
 
-  const getLatestVersion = async () => {
-    try {
-      const res = await fetch('https://api.github.com/repos/fairdataihub/FAIRshare/releases');
-      const data = await res.json();
+  useEffect(() => {
+    const getLatestVersion = async () => {
+      try {
+        const res = await fetch('https://api.github.com/repos/fairdataihub/FAIRshare/releases');
+        const data = await res.json();
 
-      const release = data.find((item) => {
-        const fileExt = item.name.split('.').pop();
-        return (
-          (fileExt === 'dmg' && os === 'macos') ||
-          (fileExt === 'exe' && os === 'windows') ||
-          (fileExt === 'AppImage' && os === 'linux')
-        );
-      });
-
-      if (release) {
-        const asset = release.assets.find((item) => {
+        const release = data.find((item) => {
           const fileExt = item.name.split('.').pop();
-          return fileExt === os;
+          return (
+            (fileExt === 'dmg' && os === 'macos') ||
+            (fileExt === 'exe' && os === 'windows') ||
+            (fileExt === 'AppImage' && os === 'linux')
+          );
         });
 
-        if (asset) {
-          setDownloadURL(asset.browser_download_url);
-        }
-      }
-    } catch (error) {
-      console.error('Error fetching latest version:', error);
-      // Tratar o erro de acordo com as necessidades do aplicativo
-    }
-  };
+        if (release) {
+          const asset = release.assets.find((item) => {
+            const fileExt = item.name.split('.').pop();
+            return fileExt === os;
+          });
 
-  useEffect(() => {
+          if (asset) {
+            setDownloadURL(asset.browser_download_url);
+          }
+        }
+      } catch (error) {
+        console.error('Error fetching latest version:', error);
+        // Tratar o erro de acordo com as necessidades do aplicativo
+      }
+    };
+
     getLatestVersion();
   }, [os]);
 
