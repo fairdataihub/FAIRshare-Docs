@@ -11,6 +11,7 @@ import DefaultNavbarItem from '@theme/NavbarItem/DefaultNavbarItem';
 import DropdownNavbarItem from '@theme/NavbarItem/DropdownNavbarItem';
 
 const getVersionMainDoc = (version) => version.docs.find((doc) => doc.id === version.mainDocId);
+
 export default function DocsVersionDropdownNavbarItem({
   mobile,
   docsPluginId,
@@ -22,21 +23,22 @@ export default function DocsVersionDropdownNavbarItem({
   const activeDocContext = useActiveDocContext(docsPluginId);
   const versions = useVersions(docsPluginId);
   const { savePreferredVersionName } = useDocsPreferredVersion(docsPluginId);
+
   const versionLinks = versions.map((version) => {
-    // We try to link to the same doc, in another version
-    // When not possible, fallback to the "main doc" of the version
     const versionDoc =
       activeDocContext.alternateDocVersions[version.name] ?? getVersionMainDoc(version);
+    const label = `${version.label === 'Upcoming 🚧' ? '' : 'FAIRshare v.'}${version.label}`;
     return {
-      label: `${version.label === 'Upcoming 🚧' ? '' : 'FAIRshare v.'}${version.label}`,
+      label,
       to: versionDoc.path,
       isActive: () => version === activeDocContext.activeVersion,
       onClick: () => savePreferredVersionName(version.name),
     };
   });
+
   const items = [...dropdownItemsBefore, ...versionLinks, ...dropdownItemsAfter];
   const dropdownVersion = useDocsVersionCandidates(docsPluginId)[0];
-  // Mobile dropdown is handled a bit differently
+
   const dropdownLabel =
     mobile && items.length > 1
       ? translate({
@@ -44,12 +46,10 @@ export default function DocsVersionDropdownNavbarItem({
           message: 'Versions',
           description: 'The label for the navbar versions dropdown on mobile view',
         })
-      : `${dropdownVersion.label === 'Upcoming 🚧' ? '' : 'FAIRshare v.'}${dropdownVersion.label}`;
-  const dropdownTo =
-    mobile && items.length > 1 ? undefined : getVersionMainDoc(dropdownVersion).path;
-  // We don't want to render a version dropdown with 0 or 1 item. If we build
-  // the site with a single docs version (onlyIncludeVersions: ['1.0.0']),
-  // We'd rather render a button instead of a dropdown
+      : getDropdownLabel(dropdownVersion);
+
+  const dropdownTo = mobile && items.length > 1 ? undefined : getVersionMainDoc(dropdownVersion).path;
+
   if (items.length <= 1) {
     return (
       <DefaultNavbarItem
@@ -61,6 +61,7 @@ export default function DocsVersionDropdownNavbarItem({
       />
     );
   }
+
   return (
     <DropdownNavbarItem
       {...props}
@@ -71,4 +72,9 @@ export default function DocsVersionDropdownNavbarItem({
       isActive={dropdownActiveClassDisabled ? () => false : undefined}
     />
   );
+}
+
+function getDropdownLabel(dropdownVersion) {
+  const versionLabel = dropdownVersion.label === 'Upcoming 🚧' ? '' : 'FAIRshare v.';
+  return `${versionLabel}${dropdownVersion.label}`;
 }
