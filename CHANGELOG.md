@@ -1,3 +1,11 @@
+# [5.0.0](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.22...v5.0.0) (2023-07-04)
+
+- feat!: 💥 ✨ docs versioned for FAIRshare 2.1.0 ([4b92ed8](https://github.com/fairdataihub/FAIRshare-Docs/commit/4b92ed84dcd433e8357677fd0a48b7699f7fb20d))
+
+### BREAKING CHANGES
+
+- docs versioned for FAIRshare 2.1.0
+
 ## [4.2.22](https://github.com/fairdataihub/FAIRshare-Docs/compare/v4.2.21...v4.2.22) (2023-05-04)
 
 ### Bug Fixes
