@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Upload summary for Figshare
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Upload%20summary%20for%20Figshare&description=Curate%20and%20Share%20%7C%20Figshare
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Upload%20summary%20for%20Figshare&description=Curate%20and%20Share%20%7C%20Figshare
 ---
 
 ## Background

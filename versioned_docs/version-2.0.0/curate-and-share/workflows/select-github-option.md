@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Use a GitHub source
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Use%20a%20GitHub%20source&description=Curate%20and%20Share%20%7C%20Workflows
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Use%20a%20GitHub%20source&description=Curate%20and%20Share%20%7C%20Workflows
 ---
 
 ## Background

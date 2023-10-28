@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Running the application
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Running%20the%20application&description=For%20Developers
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Running%20the%20application&description=For%20Developers&org=fairdataihub
 ---
 
 FAIRshare has been developed as an Electron application running a Vue 3 based front end.

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Publish your Zenodo deposition
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Publish%20your%20Zenodo%20deposition&description=Curate%20and%20Share%20%7C%20Zenodo
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Publish%20your%20Zenodo%20deposition&description=Curate%20and%20Share%20%7C%20Zenodo
 ---
 
 ## Background

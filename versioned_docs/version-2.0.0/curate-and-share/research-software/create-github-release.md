@@ -1,7 +1,7 @@
 ---
 sidebar_position: 17
 title: Create a release on GitHub
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Create%20a%20release%20on%20GitHub&description=Curate%20and%20Share%20%7C%20Research%20software
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Create%20a%20release%20on%20GitHub&description=Curate%20and%20Share%20%7C%20Research%20software
 ---
 
 ## Background

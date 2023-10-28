@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Create a new project
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Create%20a%20new%20project&description=Curate%20and%20Share%20%7C%20Projects
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Create%20a%20new%20project&description=Curate%20and%20Share%20%7C%20Projects&org=fairdataihub
 ---
 
 ## Background

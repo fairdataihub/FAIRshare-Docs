@@ -3,7 +3,7 @@ sidebar_position: 1
 title: How to make research software FAIR
 description: How to make research software FAIR
 pagination_prev: null
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=How%20to%20make%20research%20software%20FAIR&description=How%20to%20FAIR
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=How%20to%20make%20research%20software%20FAIR&description=How%20to%20FAIR
 ---
 
 ## Overview

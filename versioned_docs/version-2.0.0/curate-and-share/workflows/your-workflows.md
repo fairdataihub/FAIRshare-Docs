@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Start a project workflow
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Start%20a%20project%20workflow&description=Curate%20and%20Share%20%7C%20Workflows
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Start%20a%20project%20workflow&description=Curate%20and%20Share%20%7C%20Workflows
 ---
 
 ## Background

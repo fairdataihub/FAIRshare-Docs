@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Flask documentation
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Flask%20documentation&description=For%20Developers
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Flask%20documentation&description=For%20Developers&org=fairdataihub
 ---
 
 For the python portion of this application, Flask-RESTX is used to generate the API specific portion. To learn more about Flask-RESTX, click [here](https://flask-restx.readthedocs.io/en/latest/).

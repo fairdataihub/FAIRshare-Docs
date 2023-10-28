@@ -2,7 +2,7 @@
 sidebar_position: 1
 pagination_prev: null
 title: Project Setup
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Project%20Setup&description=For%20Developers
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Project%20Setup&description=For%20Developers
 ---
 
 ## Setting up your environment

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: User interface
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=User%20interface&description=Getting%20started
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=User%20interface&description=Getting%20started
 ---
 
 FAIRshare has been designed with the user in mind. The user interface is designed to be intuitive and easy to use.

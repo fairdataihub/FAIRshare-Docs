@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Choose your files source
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Choose%20your%20files%20source&description=Curate%20and%20Share%20%7C%20Workflows
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Choose%20your%20files%20source&description=Curate%20and%20Share%20%7C%20Workflows&org=fairdataihub
 ---
 
 ## Background

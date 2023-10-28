@@ -3,7 +3,7 @@ sidebar_position: 9
 pagination_prev: null
 pagination_next: null
 title: Terms of Use
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Terms%20of%20Use&description=
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Terms%20of%20Use&description=
 ---
 
 ### Version 1.0

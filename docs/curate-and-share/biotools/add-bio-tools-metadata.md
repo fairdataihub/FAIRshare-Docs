@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Add metadata for bio.tools
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Add%20metadata%20for%20bio.tools&description=Curate%20and%20Share%20%7C%20bio.tools
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Add%20metadata%20for%20bio.tools&description=Curate%20and%20Share%20%7C%20bio.tools&org=fairdataihub
 ---
 
 ## Background

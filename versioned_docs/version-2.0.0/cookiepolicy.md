@@ -3,7 +3,7 @@ sidebar_position: 10
 pagination_prev: null
 pagination_next: null
 title: Cookie Policy
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Cookie%20Policy&description=Information%20about%20FAIRshare%27s%20documentation%20platform%20cookie%20policy
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Cookie%20Policy&description=Information%20about%20FAIRshare%27s%20documentation%20platform%20cookie%20policy
 ---
 
 ## What Are Cookies?

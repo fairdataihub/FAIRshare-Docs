@@ -3,7 +3,7 @@ sidebar_position: 8
 pagination_prev: null
 pagination_next: null
 title: Privacy Policy
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Privacy%20Policy&description=Privacy%20policy%20for%20data%20collected%20about%20the%20FAIRshare%20application
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Privacy%20Policy&description=Privacy%20policy%20for%20data%20collected%20about%20the%20FAIRshare%20application&org=fairdataihub
 ---
 
 In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If you have any questions or concerns about this privacy notice or our practices with regards to your personal information, please contact us at [bPatel@fairdataihub.org](mailto:bpatel@fairdataihub.org) or https://fairdataihub.org/contact-us.

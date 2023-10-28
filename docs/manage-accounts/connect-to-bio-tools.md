@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Connect to bio.tools
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Connect%20to%20bio.tools&description=Manage%20Accounts
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Connect%20to%20bio.tools&description=Manage%20Accounts&org=fairdataihub
 ---
 
 ## Overview

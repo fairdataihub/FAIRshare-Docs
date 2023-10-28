@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Upload summary for Zenodo
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Upload%20summary%20for%20Zenodo&description=Curate%20and%20Share%20%7C%20Zenodo
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Upload%20summary%20for%20Zenodo&description=Curate%20and%20Share%20%7C%20Zenodo&org=fairdataihub
 ---
 
 ## Background

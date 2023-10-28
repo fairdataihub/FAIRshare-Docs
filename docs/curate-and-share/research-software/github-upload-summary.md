@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Upload summary for GitHub
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Upload%20summary%20for%20GitHub&description=Curate%20and%20Share%20%7C%20GitHub
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Upload%20summary%20for%20GitHub&description=Curate%20and%20Share%20%7C%20GitHub&org=fairdataihub
 ---
 
 ## Background

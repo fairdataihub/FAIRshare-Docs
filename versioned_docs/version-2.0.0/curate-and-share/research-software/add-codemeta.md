@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Add your code metadata
-image: https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Add%20your%20code%20metadata&description=Curate%20and%20Share%20%7C%20Research%20software
+image: https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Add%20your%20code%20metadata&description=Curate%20and%20Share%20%7C%20Research%20software
 ---
 
 ## Background

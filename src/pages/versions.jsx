@@ -27,12 +27,12 @@ export default function Version() {
         <meta
           property="og:image"
           // eslint-disable-next-line max-len
-          content="https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Documentation%20versions&description=Match%20every%20docs%20version%20to%20an%20app%20version."
+          content="https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Documentation%20versions&description=Match%20every%20docs%20version%20to%20an%20app%20version&org=fairdataihub"
         />
         <meta
           property="twitter:image"
           // eslint-disable-next-line max-len
-          content="https://og.fairdataihub.org/api/ogimage?app=fairshare&title=Documentation%20versions&description=Match%20every%20docs%20version%20to%20an%20app%20version."
+          content="https://kalai.fairdataihub.org/api/generate?app=fairshare&title=Documentation%20versions&description=Match%20every%20docs%20version%20to%20an%20app%20version&org=fairdataihub"
         />
       </Head>
 
