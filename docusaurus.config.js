@@ -133,6 +133,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      image:
+        // eslint-disable-next-line max-len
+        'https://kalai.fairdataihub.org/api/generate?app=fairshare&title=FAIRshare&org=fairdataihub&description=Your%20one-stop%20tool%20for%20making%20biomedical%20research%20data%20and%20software%20FAIR',
       metadata: [
         {
           name: 'keywords',
